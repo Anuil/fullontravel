@@ -1,0 +1,473 @@
+// @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.blogscard {
+    .blogImage {
+        height: 300px;
+        width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blogContent {
+        font-size: 16px;
+        color: #828282;
+        margin-top: 2rem;
+        .blogDetail {
+            font-size: 12px;
+            .blogWriter {
+                font-weight: bold;
+            }
+        }
+        .blogHead {
+            font-weight: 700;
+            font-size: 28px;
+            color: #000000;
+        }
+    }
+}
+
+.listingBlog {
+    font-family: "Open Sans", Arial, sans-serif;
+    .container {
+        width: 1000px;
+    }
+    .blogBanner {
+        height: 450px;
+        width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    #blog-pills-tab {
+        background: #f4f4f4;
+        flex-wrap: nowrap;
+        overflow: auto;
+        gap: 20px;
+        padding: 0 20px;
+        .nav-item {
+            .nav-link {
+                color: #9c9c9c;
+                border-bottom: 2px solid transparent;
+                border-radius: 0px;
+                padding: 18px;
+                font-size: 18px;
+                width: max-content;
+                &:hover,
+                &.active {
+                    color: #000000;
+                    background: transparent;
+                    border-bottom: 2px solid #f37002;
+                }
+            }
+        }
+    }
+}
+
+.readingBlog {
+    // font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
+    padding-top: 5rem;
+    .container {
+        width: 800px;
+    }
+    .readblogDetails {
+        .blogHead {
+            font-size: 42px;
+            color: #242424;
+            font-weight: 700;
+        }
+        .blogSubHead {
+            font-size: 22px;
+            color: #6b6b6b;
+            margin: 1rem 0;
+        }
+        .authorDetails {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            .authorProfileimg {
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                overflow: hidden;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .authorNameDetails {
+                .authorName {
+                    font-size: 16px;
+                    color: #242424;
+                }
+                .authorDetails {
+                    color: #6b6b6b;
+                    font-size: 14px;
+                    .publish {
+                        .publishName {
+                            color: #242424;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .likesANDother {
+        margin: 2rem 0;
+        border-top: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+        font-weight: 400;
+        color: rgba(117, 117, 117, 1);
+        padding: 0.8rem;
+        font-size: 14px;
+        justify-content: space-between;
+        display: flex;
+        .likesANDcomment {
+            display: flex;
+            gap: 5px;
+            svg {
+                path {
+                    fill: rgba(117, 117, 117, 1);
+                }
+            }
+            .likes {
+                display: flex;
+                align-items: center;
+                gap: 2px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #000000;
+                    svg {
+                        path {
+                            fill: #000000;
+                        }
+                    }
+                }
+            }
+            .comment {
+                display: flex;
+                align-items: center;
+                gap: 2px;
+                cursor: pointer;
+                &:hover {
+                    color: #000000;
+                    svg {
+                        path {
+                            fill: #000000;
+                        }
+                    }
+                }
+            }
+        }
+        .others {
+            .dropdown {
+                .dropdown-toggle {
+                    background: transparent;
+                    border: 0;
+                    svg {
+                        path {
+                            fill: rgba(117, 117, 117, 1);
+                        }
+                    }
+                    &:after {
+                        display: none;
+                    }
+                }
+                &:hover {
+                    color: #000000;
+                    svg {
+                        path {
+                            fill: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .readBlogImg {
+        text-align: center;
+        img {
+            height: 450px;
+            width: 600px;
+        }
+        .imgBrand {
+            margin-top: 10px;
+            color: #6b6b6b;
+            font-size: 14px;
+            font-weight: 400;
+            a {
+                text-decoration: underline;
+                color: #6b6b6b;
+            }
+        }
+    }
+    p {
+        font-size: 18px;
+        color: #1c1c1c;
+        font-weight: 300;
+        font-family: "Source Serif Pro", Georgia, Cambria, "Times New Roman", Times, serif;
+    }
+    .readBlogContent {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .inBlogHead {
+            margin: 1.5rem 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        img {
+            display: block;
+            max-width: 80%;
+            height: auto;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+        em {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+            margin-top: 8px;
+            font-size: 12px;
+            margin: -20px auto;
+            display: block;
+        }
+
+        ul {
+            margin-bottom: 0;
+        }
+        p,
+        ul li {
+            font-size: 18px;
+            // font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-family: "Poppins", sans-serif;
+            line-height: 30px;
+        }
+        blockquote {
+            margin: 0px;
+            font-size: 18px;
+            font-family: "Poppins", sans-serif;
+            line-height: 30px;
+            em {
+                display: unset;
+                font-size: 18px;
+            }
+        }
+        h1 {
+            font-size: 41px;
+        }
+        h2 {
+            font-size: 32px;
+        }
+        h3 {
+            font-size: 24px;
+        }
+    }
+
+    .tourCategory {
+        display: flex;
+        gap: 5px;
+        margin: 2rem 0;
+        flex-wrap: wrap;
+        .place {
+            background: #f2f2f2;
+            padding: 8px 12px;
+            font-size: 14px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+.listsimilarBlog {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: rgb(249, 249, 249);
+    padding: 4rem 0;
+    .container {
+        width: 800px;
+        .listHead {
+            margin-bottom: 2rem;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .blogscard {
+            .blogContent {
+                .blogHead {
+                    font-size: 24px;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+#commentsidebar {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 1060;
+    .commentTextbar {
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px;
+        padding: 14px;
+        .commentPerson {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 10px;
+            .profileImg {
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        form {
+            .textarea {
+                .form-control {
+                    outline: 0;
+                    border: 0;
+                    font-size: 14px;
+                    padding: 0;
+                    box-shadow: none;
+                }
+            }
+            .textareaButton {
+                display: flex;
+                margin-top: 10px;
+                justify-content: space-between;
+                .bolditalic {
+                    display: flex;
+                    gap: 5px;
+                }
+                .respondbutton {
+                    display: flex;
+                    gap: 5px;
+                    button {
+                        border-radius: 20px;
+                        font-weight: 600;
+                        &.respondButton {
+                            background: rgb(255 201 106);
+                            color: #fff;
+                        }
+                        &:hover {
+                            background: #f37002;
+                            color: #ffffff;
+                        }
+                    }
+                }
+                button {
+                    border: 0;
+                    background: transparent;
+                    font-size: 12px;
+                    padding: 6px;
+                    border-radius: 4px;
+                    &:hover {
+                        background: rgb(255 201 106);
+                    }
+                    svg {
+                        path {
+                            fill: #f37002;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .relevant {
+        margin: 2rem -1rem 1rem;
+        border-bottom: 3px solid rgb(242, 242, 242);
+        .dropdown {
+            .dropdown-toggle {
+                font-weight: 600;
+                font-size: 12px;
+                color: #000000;
+                text-transform: uppercase;
+            }
+            .dropdown-menu {
+                .dropdown-item {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .allComments {
+        border-bottom: 1px solid rgb(242, 242, 242);
+        background: #f9f9f9;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px;
+        .commentPerson {
+            display: flex;
+            flex-direction: column;
+            .personDetail {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .personProfile,
+                .deleteCont {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    svg:nth-child(1) {
+                        color: crimson;
+                    }
+                    svg:nth-child(2) {
+                        color: chartreuse;
+                    }
+                }
+            }
+            .comment {
+                margin-top: 10px;
+                p{
+                    font-size: 14px;
+                    color: #9f9f9f;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .readingBlog,
+    .listingBlog,
+    .listsimilarBlog {
+        .container {
+            width: unset;
+        }
+    }
+    .readingBlog {
+        .readBlogContent {
+            p {
+                img {
+                    position: unset;
+                    width: 100%;
+                }
+            }
+            h1 {
+                font-size: 25px;
+                font-weight: 700;
+            }
+            h2 {
+                font-size: 20px;
+                font-weight: 600;
+            }
+            h3 {
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -1,0 +1,2424 @@
+.shake {
+    animation: shakeAnimation 0.5s ease-in-out 3;
+}
+@keyframes shakeAnimation {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+}
+.paymentBody {
+    padding: 4.4rem 0;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin-bottom: 0;
+    }
+    ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+    .topHeader {
+        // background: #0a223d;
+        padding: 18px 0;
+        width: 100%;
+        // position: sticky;
+        // top: 0px;
+        // z-index: 3;
+        // color: #ffffff;
+        .headerContent {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            .head {
+                .reviewHead {
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: #fff;
+                }
+            }
+            ul {
+                display: flex;
+                margin: 0;
+                list-style: none;
+                padding: 0;
+                gap: 30px;
+                li {
+                    color: #000000;
+                    font-size: 14px;
+                    font-weight: 500;
+                    cursor: pointer;
+                    &.active {
+                        color: #16477f;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+    // .bgTop {
+    //     position: absolute;
+    //     height: 140px;
+    //     width: 100%;
+    //     background: #0a223d;
+    //     z-index: -1;
+    // }
+    .reviewtravelDetails {
+        .leftPanel {
+            // .holidayDtlWrapper {
+            //     background: #eef6ff;
+            //     border-radius: 4px 4px 0px 0px;
+            //     padding: 14px 25px;
+            //     .packageHead {
+            //         .packageNameReview {
+            //             display: flex;
+            //             justify-content: space-between;
+            //             align-items: center;
+            //             .packageName {
+            //                 font-size: 32px;
+            //                 font-weight: 800;
+            //             }
+            //             .packageType {
+            //                 border: 1px solid #16477f;
+            //                 border-radius: 8px;
+            //                 padding: 4px 5px 4px 5px;
+            //                 color: #16477f;
+            //                 background-color: #fff;
+            //                 font-size: 11px;
+            //                 height: 25px;
+            //             }
+            //         }
+            //     }
+            //     .destinationsNight {
+            //         margin-bottom: 1rem;
+            //         p {
+            //             font-size: 16px;
+            //             font-weight: 400;
+            //             .durationReview {
+            //                 color: #16477f;
+            //                 font-weight: 900;
+            //             }
+            //             .destinationSight {
+            //                 color: #000;
+            //             }
+            //         }
+            //     }
+            //     .packageDates {
+            //         font-size: 16px;
+            //         font-weight: 400;
+            //         display: flex;
+            //         gap: 30px;
+            //         .packageDatesLeft {
+            //             border-right: 1px dotted #9b9b9b;
+            //             padding-right: 30px;
+            //             display: flex;
+            //             .nightsDtl {
+            //                 background: #eef6ff;
+            //                 border-radius: 14px;
+            //                 padding: 4px 6px;
+            //                 font-size: 12px;
+            //                 margin: 0 30px;
+            //                 width: max-content;
+            //                 height: 22px;
+            //                 display: block;
+            //                 line-height: 10px;
+            //                 position: relative;
+            //                 border: 1px solid #16477f;
+            //                 color: #16477f;
+            //                 &:before {
+            //                     position: absolute;
+            //                     content: "";
+            //                     border-bottom: 1px solid #16477f;
+            //                     width: 10px;
+            //                     height: 1px;
+            //                     top: 10px;
+            //                     left: -15px;
+            //                 }
+            //                 &:after {
+            //                     position: absolute;
+            //                     content: "";
+            //                     border-bottom: 1px solid #16477f;
+            //                     width: 10px;
+            //                     height: 1px;
+            //                     top: 10px;
+            //                     left: 54px;
+            //                 }
+            //             }
+            //         }
+            //     }
+            // }
+
+            .reviewTravel {
+                box-shadow: 0px 1px 5px #9f9f9f;
+                border-radius: 10px;
+                margin-bottom: 1rem;
+                .travelDetails {
+                    padding: 15px;
+                    display: flex;
+                    gap: 15px;
+                    .travelImg {
+                        height: 180px;
+                        width: 30%;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    .packageDetails {
+                        color: #9f9f9f;
+                        width: 70%;
+                        font-size: 13px;
+                        cursor: default;
+                        .head {
+                            font-size: 10px;
+                            color: #333333;
+                        }
+                        .packageName {
+                            font-size: 20px;
+                            color: #000000;
+                            font-weight: 600;
+                            text-transform: capitalize;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 1;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: normal;
+                            word-break: break-word;
+                        }
+                        .stayDay {
+                            display: flex;
+                            width: 100%;
+                            flex-wrap: wrap;
+                            column-gap: 5px;
+                            .day {
+                                display: flex;
+                                align-items: center;
+                                gap: 2px;
+                                font-size: 13px;
+
+                                span {
+                                    font-weight: 500;
+                                    color: var(--text-color);
+                                }
+
+                                .place {
+                                    color: #f9f9f9;
+                                    width: max-content;
+                                    span {
+                                        display: block;
+                                    }
+                                }
+
+                                &::after {
+                                    content: "\f178";
+                                    font-family: "Font Awesome 5 Free";
+                                    font-weight: 900;
+                                    color: #9b9bb5;
+                                    margin: 0 5px;
+                                }
+
+                                &:last-child::after {
+                                    display: none;
+                                }
+                            }
+                        }
+                        .travelDetailwrap {
+                            position: relative;
+                            .editTravel {
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                background: transparent;
+                                border: 0;
+                                color: #333333;
+                            }
+                            .travelDetailwrapper {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 4px;
+                                .svgIcon {
+                                    height: 1.5em;
+                                    width: 1.5em;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    img {
+                                        height: 1em;
+                                        width: 1em;
+                                    }
+                                }
+                                .duration {
+                                    gap: 5px;
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                .people {
+                                    gap: 5px;
+                                    display: flex;
+                                    align-items: center;
+                                    .text {
+                                        text-transform: capitalize;
+                                        display: -webkit-box;
+                                        -webkit-line-clamp: 1;
+                                        -webkit-box-orient: vertical;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        white-space: normal;
+                                        word-break: break-word;
+                                    }
+                                }
+                                .roomConfig {
+                                    gap: 5px;
+                                    display: flex;
+                                    align-items: center;
+                                    text-transform: capitalize;
+                                }
+                                .dates {
+                                    gap: 4px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    .date {
+                                        gap: 5px;
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                }
+                                .transfer {
+                                    gap: 5px;
+                                    display: flex;
+                                    align-items: center;
+                                    .text {
+                                        text-transform: capitalize;
+                                        display: -webkit-box;
+                                        -webkit-line-clamp: 1;
+                                        -webkit-box-orient: vertical;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        white-space: normal;
+                                        word-break: break-word;
+                                    }
+                                }
+                            }
+                        }
+
+                        .facilityIcon {
+                            border-top: 1px solid #e0e0e0;
+                            padding-top: 10px;
+                            margin-top: 10px;
+                            display: none;
+                            gap: 10px;
+                            img {
+                                height: 20px;
+                                width: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            #accordionPanelsStayOpenExample {
+                .accordion-item {
+                    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
+                    margin-bottom: 5px;
+                    border-radius: 0;
+                    border: none;
+
+                    .accordion-header {
+                        .accordion-button {
+                            font-weight: 700;
+                            font-size: 1.3rem;
+                            &:focus {
+                                box-shadow: none;
+                            }
+                            &.collapsed {
+                                height: unset;
+                            }
+                            &:not(.collapsed) {
+                                background: transparent;
+                                color: #9b9b9b;
+                            }
+                        }
+                    }
+                    .accordion-collapse {
+                        .accordion-body {
+                            .travellerTextContainer {
+                                background-color: #fff;
+                                position: relative;
+                                z-index: 1;
+                                display: inline-block;
+                                padding-right: 18px;
+                                margin-bottom: 1rem;
+                                display: none;
+                                .travellerText {
+                                    font-weight: 900;
+                                    color: #000;
+                                    font-size: 24px;
+                                }
+                                .roomInfoText {
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    color: #000;
+                                    position: relative;
+                                    bottom: 2px;
+                                }
+                            }
+                            .addTraveller {
+                                .singleTraveller {
+                                    display: flex;
+                                    width: 100%;
+                                    gap: 20px;
+                                    .personImg {
+                                        width: 35px;
+                                        height: 35px;
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                    .traveller {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        border-bottom: 1px dashed #008cff;
+                                        width: 100%;
+                                        .travellerDetail {
+                                            .roomConfig {
+                                                display: flex;
+                                                column-gap: 5px;
+                                                flex-wrap: wrap;
+                                                .no_Of {
+                                                    color: #9b9b9b;
+                                                    font-size: 11px;
+                                                    font-weight: 800;
+                                                    display: flex;
+                                                    width: fit-content;
+                                                    gap: 5px;
+                                                    align-items: center;
+                                                    .roomDivider {
+                                                        font-size: 14px;
+                                                        font-weight: 400;
+                                                        color: #000000;
+                                                    }
+                                                    &:last-child {
+                                                        .roomDivider {
+                                                            display: none;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .addTravellerbtn {
+                                                font-weight: 700;
+                                                text-decoration: underline;
+                                                font-size: 20px;
+                                                color: #008cff;
+                                                border: 0;
+                                                background: transparent;
+                                                padding: 0;
+                                            }
+                                        }
+                                        .ageQues {
+                                            width: 60%;
+                                            span {
+                                                font-size: 11px;
+                                                font-weight: 700;
+                                                color: #979797;
+                                            }
+                                        }
+                                    }
+                                    &:last-child {
+                                        .traveller {
+                                            border-bottom: 0;
+                                        }
+                                    }
+                                }
+                            }
+                            #addTraveller {
+                                .modal-header {
+                                    .modal-title {
+                                        color: #9b9b9b;
+                                        font-weight: 800;
+                                        font-size: 20px;
+                                    }
+                                }
+                                .modal-body {
+                                    background: #f2f2f2;
+                                    padding: 0;
+                                    .tabSelection {
+                                        background: #ffffff;
+                                        margin-bottom: 10px;
+                                        padding: 1rem;
+                                        .travellerHead {
+                                            font-weight: 800;
+                                            font-size: 14px;
+                                            color: #4a4a4a;
+                                            margin-bottom: 1rem;
+
+                                            span {
+                                                font-size: 22px;
+                                            }
+                                        }
+                                        #traveller-tab {
+                                            gap: 5px;
+                                            .nav-item {
+                                                .nav-link {
+                                                    border: 1px dashed #008cff;
+                                                    color: #008cff;
+                                                    width: 82px;
+                                                    height: 80px;
+                                                    border-radius: 4px;
+                                                    font-weight: 800;
+                                                    font-size: 12px;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    gap: 5px;
+                                                    padding: 0px;
+                                                    i {
+                                                        font-size: 20px;
+                                                    }
+                                                    &.active {
+                                                        border: 1px solid #008cff;
+                                                        background: #eaf5ff;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    #traveller-tabContent {
+                                        background: #ffffff;
+                                        padding: 15px;
+                                        .modalTravellerform {
+                                            .heading {
+                                                padding: 10px 0;
+                                                margin-bottom: 10px;
+                                                border-bottom: solid 1px rgba(169, 212, 246, 0.3);
+                                            }
+                                            .subText {
+                                                margin: 10px 0 20px 0 !important;
+                                            }
+                                            form {
+                                                .coTravel {
+                                                    display: flex;
+                                                    .css-b62m3t-container {
+                                                        margin-bottom: 0;
+                                                        width: 80%;
+                                                        border-top-left-radius: 10px;
+                                                        border-bottom-left-radius: 10px;
+                                                        border-top-right-radius: 0px;
+                                                        border-bottom-right-radius: 0px;
+                                                        border-right: 0;
+                                                    }
+                                                    .clearFeed {
+                                                        width: 20%;
+                                                        border-top-right-radius: 10px;
+                                                        border-bottom-right-radius: 10px;
+                                                        border-left: 0;
+                                                        border: 1px solid #cccccc;
+                                                        background: #ff8383;
+                                                        color: #ffffff;
+                                                        &:hover {
+                                                            color: #ff8383;
+                                                            background: #ffffff;
+                                                        }
+                                                    }
+                                                }
+                                                label {
+                                                    width: 100%;
+                                                    margin-bottom: 10px;
+                                                    font-weight: 700;
+                                                    font-size: 14px;
+                                                    color: #9b9b9b;
+                                                    span {
+                                                        color: red;
+                                                    }
+                                                }
+                                                .inputControl {
+                                                    align-items: center;
+                                                    background-color: #fff;
+                                                    border: 1px solid #cccccc;
+                                                    border-radius: 3.6px;
+                                                    display: flex;
+                                                    height: 44px;
+                                                    padding: 0 10px;
+                                                    width: 100%;
+                                                    margin-bottom: 1rem;
+                                                    outline: 0;
+                                                    &::placeholder {
+                                                        color: #9f9f9f;
+                                                    }
+                                                    &.inputError {
+                                                        border: 1px solid #ff8383;
+                                                        &::placeholder {
+                                                            color: #ff8383;
+                                                        }
+                                                    }
+                                                }
+                                                .css-b62m3t-container {
+                                                    height: 44px;
+                                                    border: 1px solid #cccccc;
+                                                    border-radius: 5px;
+                                                    font-size: 14px;
+                                                    margin-bottom: 10px;
+                                                    outline: 0;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    .css-13cymwt-control,
+                                                    .css-t3ipsp-control {
+                                                        border: 0;
+                                                        width: 100%;
+                                                        outline: none;
+                                                        box-shadow: unset;
+                                                        &:hover {
+                                                            border-color: unset;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .checkboxForm {
+                                                display: flex;
+                                                gap: 10px;
+                                                flex-direction: column;
+                                                label {
+                                                    color: #515151;
+                                                    font-weight: 400;
+                                                    margin-bottom: 0;
+                                                    width: 100%;
+                                                    &.services {
+                                                        text-decoration: underline;
+                                                        font-weight: 700;
+                                                        font-size: 18px;
+                                                    }
+                                                }
+                                                .inputFor {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    gap: 10px;
+                                                    .checkbox {
+                                                        appearance: none;
+                                                        width: 24px;
+                                                        aspect-ratio: 1;
+                                                        border-radius: 8px;
+                                                        border: 2px solid black;
+                                                        position: relative;
+                                                        transition: all 0.2s ease-in-out;
+                                                        &::before {
+                                                            font-family: "Quicksand", sans-serif;
+                                                            position: absolute;
+                                                            bottom: -10px;
+                                                            left: 1px;
+                                                            content: "✔";
+                                                            font-size: 30px;
+                                                            color: rgb(255, 153, 0);
+                                                            transform: scale(0);
+                                                            transition: all 0.2s ease-in-out;
+                                                        }
+                                                        &:checked::before {
+                                                            animation: zoom 0.5s ease-in-out;
+                                                            transform: scale(1);
+                                                        }
+                                                    }
+
+                                                    @keyframes zoom {
+                                                        0% {
+                                                            transform: scale(0);
+                                                        }
+
+                                                        20% {
+                                                            transform: scale(1.5);
+                                                        }
+
+                                                        40% {
+                                                            transform: scale(0.5);
+                                                        }
+
+                                                        50% {
+                                                            transform: scale(1);
+                                                        }
+
+                                                        70% {
+                                                            transform: scale(1.2);
+                                                        }
+
+                                                        90% {
+                                                            transform: scale(0.8);
+                                                        }
+
+                                                        100% {
+                                                            transform: scale(1);
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .modal-footer {
+                                    justify-content: center;
+                                    border: 0;
+
+                                    p {
+                                        margin: 0;
+                                        font-size: 12px;
+                                    }
+                                    .addTravellerbtn {
+                                        font-weight: 800;
+                                        color: #fff;
+                                        box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
+                                        text-transform: uppercase;
+                                        height: 48px;
+                                        min-width: 200px;
+                                        border: none;
+                                        border-radius: 4px;
+                                        padding: 12px 50px;
+                                        cursor: pointer;
+                                        background: linear-gradient(93deg, #53b2fe, #065af3);
+                                        &:disabled {
+                                            background: grey;
+                                        }
+                                    }
+                                }
+                            }
+                            form {
+                                .travellerDetailform {
+                                    padding: 15px 0;
+                                    h5 {
+                                        font-weight: 800;
+                                        margin-bottom: 1rem !important;
+                                    }
+                                    label {
+                                        width: 100%;
+                                        margin-bottom: 10px;
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        color: #9b9b9b;
+                                        height: 33px;
+                                        display: flex;
+                                        align-items: end;
+                                        span {
+                                            color: red;
+                                        }
+                                    }
+                                    .inputControl {
+                                        align-items: center;
+                                        background-color: #fff;
+                                        border: 1px solid #cccccc;
+                                        border-radius: 3.6px;
+                                        display: flex;
+                                        height: 44px;
+                                        padding: 10px;
+                                        width: 100%;
+                                        outline: none;
+                                        &:disabled {
+                                            background: #e9e9e9;
+                                        }
+                                    }
+                                }
+                                #GSTDetails {
+                                    .accordion-item {
+                                        .accordion-header {
+                                            .accordion-button {
+                                                font-size: 1.1rem;
+                                                &[aria-expanded="false"]::before {
+                                                    content: "";
+                                                    background-image: url(/src/assets/images/svg/plus.svg);
+                                                    height: 14px;
+                                                    width: 14px;
+                                                    background-size: contain;
+                                                    margin-right: 8px;
+                                                    background-repeat: no-repeat;
+                                                }
+                                                &[aria-expanded="true"]::before {
+                                                    content: "";
+                                                    background-image: url(/src/assets/images/svg/minus.svg);
+                                                    height: 14px;
+                                                    width: 14px;
+                                                    margin-right: 8px;
+                                                    background-repeat: no-repeat;
+                                                    background-size: contain;
+                                                    background-position: center;
+                                                }
+                                            }
+                                        }
+                                        .accordion-collapse {
+                                            .accordion-body {
+                                                padding: 0 1rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    #panelsStayOpen-collapseTwo {
+                        .accordion-body {
+                            padding: 0;
+                            .tripSummary {
+                                padding: 1rem;
+                                box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+
+                                .divider {
+                                    min-width: 1px;
+                                    max-width: 1px;
+                                    width: 1px;
+                                    min-height: 17px;
+                                    max-height: 17px;
+                                    height: 17px;
+                                    display: flex;
+                                    background: #e0e0e0;
+                                }
+
+                                .summaryHead {
+                                    h2 {
+                                        display: none;
+                                    }
+                                    .bottomSection {
+                                        margin: 0px 0 15px;
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 20px;
+                                        flex-wrap: wrap;
+                                        background: #f9f9f9;
+                                        width: max-content;
+                                        padding: 5px 10px;
+                                        border-radius: 5px;
+
+                                        .events {
+                                            display: flex;
+                                            gap: 5px;
+                                            align-items: center;
+                                            .icon {
+                                                height: 16px;
+                                                width: 16px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+
+                                                img {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                }
+                                            }
+                                            .name {
+                                                font-size: 14px;
+                                                color: #000000;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .itineraryDay {
+                                    ul {
+                                        margin: 0;
+                                    }
+
+                                    .dayHeader {
+                                        background: #f4f6f9;
+                                        padding: 10px;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        border-radius: 5px;
+                                        gap: 15px;
+                                        h4 {
+                                            color: #202020;
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                        }
+
+                                        .dayEvent {
+                                            display: flex;
+                                            align-items: center;
+                                            gap: 5px;
+
+                                            .eventCount {
+                                                display: flex;
+                                                gap: 5px;
+                                                align-items: center;
+                                                font-weight: 400;
+                                                font-size: 12px;
+                                                line-height: 13px;
+                                                color: #000;
+                                                img {
+                                                    height: 12px;
+                                                    width: 12px;
+                                                }
+                                                &:last-child {
+                                                    .divider {
+                                                        display: none;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .dayContent {
+                                        padding: 20px 0px;
+                                        display: flex;
+                                        gap: 20px;
+                                        flex-wrap: wrap;
+                                        .dayEvent {
+                                            display: flex;
+                                            gap: 5px;
+                                            padding: 10px;
+                                            border-radius: 10px;
+                                            align-items: start;
+                                            background: #f6f5f5;
+                                            flex-basis: calc(33% - 12px);
+                                            max-width: calc(33% - 12px);
+                                            box-sizing: border-box;
+                                            .leftSection {
+                                                align-items: center;
+                                                display: flex;
+                                                gap: 5px;
+                                                color: var(--primary-color);
+                                                .count {
+                                                    font-size: 14px;
+                                                }
+                                                img {
+                                                    height: 14px;
+                                                    width: 14px;
+                                                    margin-top: 3px;
+                                                }
+                                            }
+
+                                            .rightSection {
+                                                width: 100%;
+                                                height: 100%;
+                                                .leisure_day {
+                                                    height: 100%;
+                                                    .leisureHead {
+                                                        display: flex;
+                                                        gap: 5px;
+                                                        border-radius: 5px;
+                                                        background: rgb(236, 253, 255);
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        align-items: center;
+                                                        padding: 5px;
+                                                        margin: 0;
+                                                        color: #027fb1;
+                                                        font-size: 13px;
+                                                        font-weight: 400;
+                                                    }
+                                                }
+                                                .eventTitle {
+                                                    font-weight: 600;
+                                                    font-size: 14px;
+
+                                                    .singleEvent {
+                                                        font-weight: 400;
+                                                        font-size: 13px;
+                                                        margin-left: 5px;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .mealWrapper {
+                                            background: #f4f4f4;
+                                            border-radius: 10px;
+                                            padding: 15px;
+
+                                            .mealTime {
+                                                display: flex;
+                                                align-items: center;
+                                                gap: 5px;
+                                            }
+
+                                            .lunchDnnr {
+                                                display: flex;
+                                                gap: 10px;
+
+                                                .sep {
+                                                    background: #e0e0e0;
+                                                    border-radius: 50%;
+                                                    width: 18px;
+                                                    height: 18px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    font-size: 12px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #panelsStayOpen-collapseThree {
+                        .accordion-body {
+                            padding: 0;
+                            .travelInEx {
+                                background: #eef6ff;
+                                .detailedPoint {
+                                    padding: 15px;
+                                    .point {
+                                        .head {
+                                            font-weight: 700;
+                                            margin-bottom: 1rem;
+                                            font-size: 13px;
+                                        }
+                                        ul {
+                                            list-style: circle;
+                                            padding-left: 25px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            column-gap: 30px;
+                                            li {
+                                                font-size: 12px;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        &.inclusion {
+                                            border-bottom: 2px dashed #b3b3b3;
+                                            margin-bottom: 1rem;
+                                            padding-bottom: 1rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #panelsStayOpen-collapseFour {
+                        .accordion-body {
+                            .terms_conditions {
+                                margin-bottom: 0rem;
+                                overflow: hidden;
+                                border-radius: 10px;
+                                box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+                                .customAccordion {
+                                    margin-bottom: 0;
+                                    border-radius: 0;
+                                    background: #fff;
+                                    border-top: 1px solid #e0e0e0;
+                                    border-bottom: 0;
+                                    border-right: 0;
+                                    border-left: 0;
+                                    box-shadow: none;
+
+                                    .customAccord {
+                                        .accordionTitle {
+                                            gap: 10px;
+                                            align-items: center;
+                                            svg {
+                                                height: 19px;
+                                                width: 19px;
+                                                display: none;
+                                                path {
+                                                    fill: #009a3c;
+                                                }
+                                            }
+
+                                            .title {
+                                                font-size: 16px;
+                                                text-transform: capitalize;
+                                            }
+                                            &::before {
+                                                content: "";
+                                                background-image: url(../images/svg/plus.svg);
+                                                height: 14px;
+                                                width: 14px;
+                                                background-size: contain;
+                                            }
+                                        }
+                                    }
+                                    &.show {
+                                        .customAccord {
+                                            .accordionTitle {
+                                                &::before {
+                                                    content: "";
+                                                    background-image: url(../images/svg/minus.svg);
+                                                    height: 2px;
+                                                    width: 14px;
+                                                    background-size: contain;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .accordionDetails {
+                                        font-size: 13px;
+                                        .details {
+                                            border-top: 1px solid #e0e0e0;
+                                            margin-bottom: 20px;
+                                            padding: 20px 0 0 0;
+                                            ul {
+                                                padding-left: 20px;
+                                                list-style-type: disc;
+                                                li {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .policyList {
+                        .policy_content {
+                            padding: 10px;
+                            margin-bottom: 2rem;
+                            .policyHeader {
+                                .policyHeading {
+                                    .heading {
+                                        font-size: 22px;
+                                        font-weight: 800;
+                                        margin-bottom: 10px;
+                                    }
+                                    .subText {
+                                        color: #589231;
+                                        font-size: 14px;
+                                        font-weight: 700;
+                                    }
+                                }
+                                .lightText {
+                                    color: #9b9b9b;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    span {
+                                        font-weight: 700;
+                                    }
+                                }
+                            }
+                            .trackTime {
+                                margin: 2rem 0;
+                                .hr_tracker_strip {
+                                    background: linear-gradient(
+                                        270.01deg,
+                                        rgba(249, 198, 169, 0.885417) 0.01%,
+                                        #ffe6ac 51.79%,
+                                        #c8e5b5 102.5%
+                                    );
+                                    border-radius: 6px;
+                                    height: 8px;
+                                    width: 100%;
+                                    display: flex;
+                                }
+                                ul {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    li {
+                                        margin: -18px 30px 0 20px;
+                                        .date {
+                                            font-size: 16px;
+                                            font-weight: 800;
+                                            margin: 20px 0 5px 0;
+                                        }
+                                        .text {
+                                            font-size: 11px;
+                                        }
+                                    }
+                                }
+                            }
+                            .date_change_policy_box {
+                                padding: 28px;
+                                border-radius: 4px;
+                                background: rgba(190, 202, 206, 0.15);
+                                margin-top: 25px;
+                                ul {
+                                    list-style-type: disc;
+
+                                    li {
+                                        margin-bottom: 15px;
+                                        position: relative;
+                                        font-size: 12px;
+                                        color: #000;
+                                        &::marker {
+                                            color: #589231;
+                                            font-size: 20px;
+                                        }
+                                    }
+                                }
+                            }
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+                .insuranceWrapper {
+                    background-image: linear-gradient(30deg, #fff 33%, #ffe0cb);
+                    margin-bottom: 5px;
+                    .insuranceSectionHeaderContainer {
+                        padding: 16px 24px;
+                        .headerCardSeparator {
+                            display: flex;
+                            padding-bottom: 8px;
+                            border-bottom: 1px solid #d8d8d8;
+                            .addonHeaderIcon {
+                                height: 24px;
+                                width: 24px;
+                                img {
+                                    max-width: 100%;
+                                }
+                            }
+                            .append {
+                                margin-left: 18px;
+                                margin-bottom: 8px;
+                                .addonHeader {
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    color: #000;
+                                    margin-bottom: 4px;
+                                }
+                            }
+                        }
+                    }
+                    .insurance-container-wrapper {
+                        padding: 16px 24px;
+                        .planListingCard {
+                            background: #fff;
+                            padding: 16px;
+                            box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.11);
+                            border: 1px solid #d8d8d8;
+                            border-radius: 16px;
+                            .cardHeaderContent {
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 0px 0px 0px 0px;
+                                .insuranceDetails {
+                                    display: flex;
+                                    .headerIcon {
+                                        width: 16px;
+                                        height: 16px;
+                                        margin-top: 3px;
+                                    }
+                                    .headingSubHeadingFlex {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin-left: 8px;
+                                        .inHeading {
+                                            display: flex;
+                                            .cardHeading {
+                                                font-weight: 900;
+                                                color: #000;
+                                                font-size: 16px;
+                                                margin-bottom: 2px;
+                                            }
+                                            .mostPopularTag {
+                                                color: #834cc5;
+                                                font-size: 12px;
+                                                font-weight: 900;
+                                                border: 1px solid #834cc5;
+                                                border-radius: 16px;
+                                                line-height: normal;
+                                                padding: 2px 8px;
+                                                margin-left: 8px;
+                                                margin-bottom: 0px;
+                                            }
+                                        }
+                                        .cardSubHeading {
+                                            font-weight: 400;
+                                            color: #4a4a4a;
+                                        }
+                                    }
+                                }
+                                .tncLink {
+                                    display: flex;
+                                    font-weight: 700;
+                                    color: #008cff;
+                                    cursor: pointer;
+                                }
+                            }
+                            .insuranceFulldetails {
+                                .benefitsDetailTitle {
+                                    font-weight: 700;
+                                    color: #000;
+                                }
+                                .listingCardBenefitDetailsContainer {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    flex-direction: row;
+                                    margin-top: 10px;
+                                    .benefitDetailsList {
+                                        padding-left: 0;
+                                        .benefits {
+                                            display: flex;
+                                            .icon {
+                                                width: 16px;
+                                                height: 16px;
+                                            }
+                                            .benefitsHeadingContent {
+                                                margin-bottom: 4px;
+                                                margin-left: 6px;
+                                                .headingPrice {
+                                                    font-size: 12px;
+                                                    margin-bottom: 4px;
+                                                    .benefitPrice {
+                                                        color: #000;
+                                                        font-weight: 700;
+                                                        margin-left: auto;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .viewBenefitButton {
+                                            margin-top: 6px;
+                                            color: #008cff;
+                                            font-size: 12px;
+                                            font-weight: 700;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                    .addonPriceMap {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: end;
+                                        align-items: end;
+                                        .addonPriceDiff {
+                                            font-size: 16px;
+                                            font-weight: 900;
+                                        }
+                                        .addonPriceDiffUnit {
+                                            margin-bottom: 8px;
+                                        }
+                                        .selectButton {
+                                            border: 1px solid #008cff;
+                                            background: #fff;
+                                            min-width: 74px;
+                                            padding: 9px 16px;
+                                            border-radius: 8px;
+                                            min-height: 32px;
+                                            color: #008cff;
+                                            cursor: pointer;
+                                            font-weight: 900;
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .rightPanel {
+            // .fareSummary {
+            //     .rightTopSection {
+            //         background: #eaf5ff;
+            //         padding: 25px 15px 0;
+            //         .appendBottom {
+            //             display: flex;
+            //             align-items: center;
+            //             justify-content: space-between;
+            //             .paxCount {
+            //                 font-size: 12px;
+            //             }
+            //             .discountTag {
+            //                 background: linear-gradient(225deg, #ff3e5e 0%, #ff6d3f 100%);
+            //                 border-radius: 2px;
+            //                 color: #fff;
+            //                 font-size: 9px;
+            //                 padding: 4px 4px;
+            //             }
+            //         }
+            //         .totalPrize {
+            //             font-size: 11px;
+            //             display: flex;
+            //             align-items: center;
+            //             gap: 5px;
+            //             .prize {
+            //                 font-size: 30px;
+            //                 font-weight: 800;
+            //             }
+            //         }
+            //     }
+            //     .payLater,
+            //     .payNow {
+            //         background: #eaf5ff;
+            //         .payLaterheader,
+            //         .payNowheader {
+            //             display: flex;
+            //             align-items: center;
+            //             justify-content: space-between;
+            //             padding: 12px 15px;
+            //             .radio-button {
+            //                 display: flex;
+            //                 gap: 10px;
+            //                 justify-content: center;
+            //                 position: relative;
+            //                 align-items: center;
+            //                 font-weight: 700;
+
+            //                 input[type="radio"] {
+            //                     position: absolute;
+            //                     opacity: 0;
+            //                 }
+
+            //                 .radio {
+            //                     position: relative;
+            //                     display: inline-block;
+            //                     width: 18px;
+            //                     height: 18px;
+            //                     border-radius: 50%;
+            //                     border: 2px solid #ccc;
+            //                     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+            //                     transform: translateZ(-25px);
+            //                     transition: all 0.3s ease-in-out;
+            //                     cursor: pointer;
+            //                 }
+
+            //                 input[type="radio"]:checked + .radio {
+            //                     border-color: #008cff;
+            //                     transform: translateZ(0px);
+            //                     background-color: #008cff;
+            //                     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+            //                     &::before {
+            //                         opacity: 1;
+            //                     }
+            //                 }
+            //             }
+            //             span {
+            //                 cursor: pointer;
+            //             }
+            //         }
+            //         .payLaterbody {
+            //             background: #d4e9fa;
+            //             padding: 15px 20px;
+            //             display: none;
+            //             .payLaterdetails {
+            //                 position: relative;
+            //                 border-left: 1px dotted #aaa;
+            //                 margin-left: 5px;
+            //                 .timeLinetopay {
+            //                     display: flex;
+            //                     justify-content: space-between;
+            //                     margin-bottom: 15px;
+            //                     padding-left: 20px;
+            //                     .payDetail {
+            //                         display: flex;
+            //                         .chartNumber {
+            //                             background: #a9d4f6;
+            //                             border-radius: 30px;
+            //                             width: 18px;
+            //                             font-size: 10px;
+            //                             height: 18px;
+            //                             display: flex;
+            //                             align-items: center;
+            //                             justify-content: center;
+            //                             margin-right: 15px;
+            //                             position: absolute;
+            //                             left: -9px;
+            //                         }
+            //                         .textDetails {
+            //                             font-size: 11px;
+            //                             .textHead {
+            //                                 margin-bottom: 0;
+            //                             }
+            //                             .greyText {
+            //                                 color: #9b9b9b;
+            //                                 margin-bottom: 0;
+            //                             }
+            //                         }
+            //                     }
+            //                     .faresumPrice {
+            //                         font-size: 12px;
+            //                     }
+            //                     &:last-child {
+            //                         margin-bottom: 0;
+            //                     }
+            //                 }
+            //             }
+            //             &.show {
+            //                 display: block;
+            //             }
+            //         }
+            //     }
+            //     .payNow {
+            //         background: transparent;
+            //         .priceBreakUpSection {
+            //             padding: 12px 15px;
+            //             .collapsHead {
+            //                 display: flex;
+            //                 align-items: center;
+            //                 justify-content: space-between;
+            //                 padding: 10px 0;
+            //                 cursor: pointer;
+            //                 color: #000;
+            //                 .payNowFarheading {
+            //                     font-weight: 700;
+            //                 }
+            //             }
+            //             .fareBreakup {
+            //                 border-bottom: 1px solid #ddd;
+            //                 padding-bottom: 10px;
+            //                 padding-top: 10px;
+            //                 .fareBreakupTitle {
+            //                     color: #000;
+            //                     font-weight: 900;
+            //                     line-height: 14px;
+            //                     margin-bottom: 5px;
+            //                     display: flex;
+            //                     justify-content: space-between;
+            //                     font-size: 12px;
+            //                 }
+            //                 .prizeBreak {
+            //                     display: flex;
+            //                     justify-content: space-between;
+            //                     font-size: 11px;
+            //                     display: none;
+            //                     .coupon-applied {
+            //                         color: #1a7971;
+            //                         background: #c1f1dd;
+            //                         padding: 4px;
+            //                         border-radius: 2px;
+            //                         font-weight: 700;
+            //                     }
+            //                     .linkText {
+            //                         color: #008cff;
+            //                         cursor: pointer;
+            //                         font-weight: 900;
+            //                     }
+            //                     &.show {
+            //                         display: flex;
+            //                     }
+            //                 }
+            //             }
+            //         }
+            //     }
+            //     .emiTags {
+            //         background-image: linear-gradient(265deg, #667eea, #1b269f);
+            //         height: 26px;
+            //         display: flex;
+            //         align-items: center;
+            //         justify-content: center;
+            //         margin-bottom: 10px;
+            //         color: #fff;
+            //         font-size: 12px;
+            //         font-weight: 900;
+            //     }
+            //     .priceBreakUpSection {
+            //         padding: 12px 15px;
+            //         margin-bottom: 2rem;
+            //         .noticeHead {
+            //             font-weight: 800;
+            //             margin-bottom: 10px;
+            //         }
+            //         .tnc_container {
+            //             display: flex;
+            //             gap: 4px;
+            //             margin-bottom: 12px;
+            //             .checkboxLabel {
+            //                 display: flex;
+            //                 align-items: start;
+            //             }
+            //             .notice {
+            //                 font-size: 11px;
+            //                 .hyperLinkText {
+            //                     color: #008cff;
+            //                     cursor: pointer;
+            //                 }
+            //                 a {
+            //                     text-decoration: none;
+            //                 }
+            //             }
+            //         }
+            //         .proceedToPaymentDiv {
+            //             .btn-container {
+            //                 position: relative;
+            //                 text-align: center;
+            //                 border-radius: 34px;
+            //                 background: linear-gradient(93deg, #53b2fe, #065af3);
+            //                 box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.2);
+            //                 outline: 0;
+            //                 border: 0;
+            //                 width: 100%;
+            //                 padding: 7px;
+            //                 .reviewV3Submit {
+            //                     display: inline-block;
+            //                     flex-shrink: 0;
+            //                     color: #fff;
+            //                     text-transform: uppercase;
+            //                     font-weight: 900;
+            //                     font-size: 12px;
+            //                     cursor: pointer;
+            //                     text-align: center;
+            //                 }
+            //                 &.disabled {
+            //                     background: #9b9b9b;
+            //                     box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.2);
+            //                     color: #ffffff;
+            //                     &:hover {
+            //                         .toolTipsWrapper {
+            //                             display: block;
+            //                         }
+            //                     }
+            //                 }
+            //                 .toolTipsWrapper {
+            //                     position: absolute;
+            //                     width: 271px;
+            //                     background: #000;
+            //                     padding: 8px 12px;
+            //                     box-shadow: 0 1px 4px #888;
+            //                     z-index: 9;
+            //                     border-radius: 4px;
+            //                     display: none;
+            //                     top: calc(100% + 8px);
+            //                     .cityChangeWarningWrapper {
+            //                         display: flex;
+            //                         align-items: center;
+            //                         margin: 0 auto;
+            //                         min-height: 42px;
+            //                         &:before {
+            //                             background-color: #000;
+            //                             width: 20px;
+            //                             min-height: 20px;
+            //                             position: relative;
+            //                             content: "";
+            //                             margin-top: -55px;
+            //                             transform: rotate(45deg);
+            //                             left: 55px;
+            //                         }
+            //                     }
+            //                 }
+            //             }
+            //         }
+            //     }
+            // }
+
+            .bookingSection {
+                flex-direction: column;
+                display: flex;
+                gap: 20px;
+                .priceDetails {
+                    box-shadow: 0px 1px 5px #9f9f9f;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .detailHead {
+                        font-size: 18px;
+                        background: #eef6ff;
+                        padding: 7px 10px;
+                        display: flex;
+                        gap: 10px;
+                        height: 50px;
+                        align-items: center;
+                        .ruppeeIcon {
+                            border: 2px solid #000;
+                            border-radius: 50%;
+                            font-weight: 600;
+                            height: 30px;
+                            width: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                    .priceBreakdown {
+                        padding: 10px 10px 5px;
+                        .overPrice {
+                            display: flex;
+                            justify-content: space-between;
+                            border-bottom: 1px solid #f5f5f5;
+                            font-size: 13px;
+                            padding: 5px 0;
+                            .inputWrap {
+                                font-size: 12px;
+                                display: flex;
+                                align-items: center;
+                                gap: 5px;
+                            }
+                            &.text-danger {
+                                font-size: 16px;
+                            }
+                        }
+                        .priceTable {
+                            margin-top: 0.5rem;
+                            .linkBtn {
+                                width: 100%;
+                                border: none;
+                                background: none;
+                                color: #008cff;
+                                text-decoration: underline;
+                                font-size: 12px;
+                            }
+                            #pricetableModal {
+                                .modal-dialog {
+                                    .modal-content {
+                                        .modal-header {
+                                            border-bottom: none;
+                                            .modal-title {
+                                                .titleHead {
+                                                    font-weight: 600;
+                                                    font-size: 18px;
+                                                    line-height: 23px;
+                                                }
+                                                .subTitle {
+                                                    font-weight: 400;
+                                                    font-size: 12px;
+                                                    line-height: 15px;
+                                                    color: #7a7a7a;
+                                                    padding-top: 4px;
+                                                }
+                                            }
+                                            .btn-close {
+                                                cursor: pointer;
+                                                position: relative;
+                                                width: 18px;
+                                                height: 18px;
+                                                background: #e7e7e7;
+                                                top: -7px;
+                                                right: -1px;
+                                                border-radius: 100%;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                            }
+                                        }
+                                        .modal-footer {
+                                            display: unset;
+                                            border-top: none;
+                                            ul {
+                                                list-style: circle;
+                                                padding-left: 20px;
+                                                li {
+                                                    font-size: 12px;
+                                                    line-height: 18px;
+                                                    color: #595959;
+                                                    margin-bottom: 7px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                #feedBack {
+                    .accordion-item {
+                        .accordion-header {
+                            .accordion-button {
+                                font-size: 14px;
+                                background: #378ff2;
+                                padding: 7px 10px;
+                                color: #ffffff;
+                                &::after {
+                                    content: "";
+                                    mix-blend-mode: plus-lighter;
+                                }
+                            }
+                        }
+                        .accordion-collapse {
+                            .accordion-body {
+                                padding: 0.5rem;
+                                ul {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 10px;
+                                    li {
+                                        display: flex;
+                                        gap: 5px;
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .bookingBtn {
+                    .btn {
+                        background: #f37002;
+                        color: #ffffff;
+                        border-radius: 20px;
+                        width: 100%;
+                    }
+                }
+
+                .couponCode {
+                    box-shadow: 0px 1px 5px #9f9f9f;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .couponHead {
+                        font-size: 14px;
+                        background: #378ff2;
+                        padding: 7px 10px;
+                        color: #ffffff;
+                    }
+                    .applyCoupon {
+                        form {
+                            display: flex;
+                            padding: 15px 7px;
+                            gap: 10px;
+
+                            .couponInput {
+                                width: 70%;
+                                border: none;
+                                border-bottom: 2px solid #9f9f9f;
+                                outline: 0;
+                                font-size: 15px;
+                                font-weight: 600;
+
+                                // &:disabled{
+                                //     color: #009a3c;
+                                // }
+                            }
+                            .couponBtn {
+                                width: 30%;
+                                font-size: 13px;
+                                color: #ffffff;
+                                font-weight: 600;
+                                border: none;
+                                border-radius: 5px;
+                                background: #378ff2;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .offersSection {
+                .couponsHead {
+                    font-size: 18px;
+                    font-weight: 900;
+                    margin-bottom: 10px;
+                }
+                .emiOptions {
+                    background: #f2f2f2;
+                    padding: 20px 20px;
+                    display: flex;
+                    align-items: center;
+                    .emiIcon {
+                        background: linear-gradient(225deg, #667eea 4.42%, #764ba2 100%);
+                        border-radius: 20px;
+                        padding: 0 3px;
+                        color: #fff;
+                        width: 34px;
+                        font-size: 8px;
+                        font-weight: 900;
+                        height: 13px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 10px;
+                        span {
+                            margin-right: 2px;
+                            color: #fff;
+                            font-size: 7px;
+                            font-weight: 900;
+                            border: 1px solid hsla(0, 0%, 100%, 0.7);
+                            border-radius: 30px;
+                            width: 9px;
+                            height: 9px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                    .emiDetails {
+                        .emiPermonth {
+                            font-weight: 700;
+                            color: #4a4a4a;
+                            font-size: 14px;
+                        }
+                        .relateText {
+                            font-size: 11px;
+                            color: #9b9b9b;
+                            .linkText {
+                                font-size: 11px;
+                                color: #008cff;
+                                cursor: pointer;
+                                font-weight: 900;
+                            }
+                        }
+                    }
+                }
+                .offerZone {
+                    // padding: 15px;
+                    .couponsInput {
+                        font-size: 12px;
+                        margin-bottom: 25px;
+                        .enterCoupon {
+                            display: flex;
+                            justify-content: space-between;
+                            .fieldText {
+                                font-weight: 500;
+                            }
+                            .enterCodeButton {
+                                font-weight: 700;
+                                text-align: right;
+                                color: #008cff;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    .couponsList {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        .coupe {
+                            position: relative;
+                            .couponsOuter {
+                                display: flex;
+                                width: 100%;
+                                min-height: 70px;
+                                max-height: 200px;
+                                background: #fff;
+                                border: 1px solid #d8d8d8;
+                                box-sizing: border-box;
+                                border-radius: 16px;
+                                padding: 16px;
+                                position: relative;
+                                box-sizing: border-box;
+                                cursor: pointer;
+                                .couponText {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    .couponIcon {
+                                        width: 8%;
+                                    }
+                                    .couponWrapper {
+                                        width: 92%;
+                                        .flexCouponContainer {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            .couponIcon {
+                                                display: flex;
+                                                align-items: center;
+                                                border-radius: 4px;
+                                                height: 20px;
+                                                width: 20px;
+                                                margin-right: 8px;
+                                            }
+                                            .couponTitle {
+                                                display: flex;
+                                                flex: 1;
+                                                p {
+                                                    font-size: 12px;
+                                                    font-weight: 700;
+                                                    color: #000;
+                                                }
+                                            }
+                                            .couponPrice {
+                                                span {
+                                                    font-family: Lato;
+                                                    font-size: 14px;
+                                                    font-weight: 700;
+                                                    line-height: 17px;
+                                                    letter-spacing: 0px;
+                                                    text-align: left;
+                                                }
+                                            }
+                                        }
+                                        .couponDetails {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            width: 85%;
+                                            p {
+                                                font-size: 11px;
+                                                color: #000;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.active {
+                                    background: linear-gradient(96deg, transparent, #d3e7ff);
+                                    border: 1px solid #008cff;
+                                    padding: 16px;
+                                    color: #007e7d;
+                                }
+                            }
+                            .linkText {
+                                font-size: 11px;
+                                color: #008cff;
+                                cursor: pointer;
+                                font-weight: 900;
+                                text-transform: uppercase;
+                                pointer-events: auto;
+                                position: absolute;
+                                right: 16px;
+                                bottom: 16px;
+                            }
+                        }
+                    }
+                    .rMoreCoupons {
+                        .linkText {
+                            font-size: 14px;
+                            color: #008cff;
+                            cursor: pointer;
+                            font-weight: 900;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .paymentDetails {
+        border-radius: 10px;
+        padding: 1rem;
+        box-shadow: 0px 1px 5px #9f9f9f;
+        .paymentHead {
+            display: flex;
+            justify-content: space-between;
+            .heading {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .pageSession {
+                font-size: 12px;
+                background: #ffd7af;
+                border-radius: 25px;
+                padding: 6px 10px;
+                color: #000000;
+                span {
+                    color: #ea0000;
+                    font-weight: 600;
+                }
+            }
+        }
+        .paymentMethods {
+            display: flex;
+            align-items: start;
+            margin-top: 1rem;
+            border-radius: 10px;
+            box-shadow: 0px 1px 5px #9f9f9f;
+            overflow: hidden;
+            #payment-tab {
+                width: 30%;
+                flex-direction: column;
+                .nav-link {
+                    height: 100px;
+                    border-radius: 0;
+                    border: 1px solid #9f9f9f;
+                    border-bottom: 0;
+                    background: #f5f6f8;
+                    &:last-child {
+                        border-bottom: 1px solid #9f9f9f;
+                        border-bottom-left-radius: 10px;
+                    }
+                    &:first-child {
+                        border-top-left-radius: 10px;
+                    }
+                    .tabWrapper {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        .creditIcons {
+                            height: 40px;
+                            width: 40px;
+                            padding: 7px;
+                            background: #f5f6f8;
+                            border-radius: 7px;
+                            svg {
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .titleTab {
+                            text-align: left;
+                            .title {
+                                color: #000;
+                                font-size: 14px;
+                                line-height: 23px;
+                                font-weight: 600;
+                            }
+                            .subTitle {
+                                font-size: 11px;
+                                color: #000;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    &.active {
+                        background: transparent;
+                        border-right: 0;
+                        .tabWrapper {
+                            .creditIcons {
+                            }
+                            .titleTab {
+                                .title {
+                                    color: #2791d8;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #payment-tabContent {
+                width: 70%;
+                .tab-pane {
+                    padding: 1rem;
+                    form {
+                        label {
+                            margin-bottom: 0.2rem;
+                            font-size: 14px;
+                        }
+                        .form-control,
+                        .form-select {
+                            box-shadow: none;
+                            border-radius: 0;
+                            outline: 0;
+                        }
+                        .totalFare {
+                            font-weight: 600;
+                            font-size: 18px;
+                            span {
+                                color: var(--primary-color);
+                                font-size: 20px;
+                            }
+                        }
+                        .paymentBtn {
+                            background: var(--primary-color);
+                            border-radius: 25px;
+                            padding: 7px 20px;
+                            color: #fff;
+                            font-weight: 600;
+                            border: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768.98px) {
+    .paymentBody {
+        .reviewtravelDetails {
+            .leftPanel {
+                #accordionPanelsStayOpenExample {
+                    .accordion-item {
+                        .accordion-collapse {
+                            .accordion-body {
+                                form {
+                                    .travellerDetailform {
+                                        label {
+                                            height: unset;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .paymentBody {
+        background: #f2f2f2;
+        padding: 4.4rem 0 1rem;
+        .topHeader {
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1.41px;
+            background: #fff;
+            color: #000000;
+            .headerContent {
+                justify-content: space-between;
+                .head {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    .backButton {
+                        .goBtn {
+                            background: transparent;
+                            border: 0;
+                        }
+                    }
+                    .reviewHead {
+                        font-size: 18px;
+                        color: #000000;
+                        font-weight: 700;
+                    }
+                    .subHead {
+                        font-size: 14px;
+                        color: rgb(74, 74, 74);
+                    }
+                }
+                ul {
+                    display: none;
+                }
+            }
+        }
+        .reviewtravelDetails {
+            margin: 1rem 0;
+            .leftPanel {
+                .holidayDtlWrapper {
+                    border-radius: 10px;
+                    margin-bottom: 1rem;
+                    background: #fff;
+                    padding: 15px 0;
+                    .packageHead {
+                        padding: 0 15px;
+                        .packageNameReview {
+                            flex-direction: column;
+                            align-items: start;
+                            gap: 10px;
+                            .packageName {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                    .destinationsNight {
+                        margin: 0.5rem 0;
+                        padding: 0 15px;
+                        p {
+                            font-weight: 400;
+                            color: rgb(74, 74, 74);
+                            font-size: 14px;
+                            .durationReview {
+                                color: unset;
+                                font-weight: unset;
+                            }
+                            .destinationSight {
+                                color: unset;
+                            }
+                        }
+                    }
+                    .packageDates {
+                        flex-direction: column;
+                        gap: 10px;
+                        .packageDatesLeft {
+                            padding: 15px 15px;
+                            border-top: 1px solid rgb(216, 216, 216);
+                            border-bottom: 1px solid rgb(216, 216, 216);
+                            align-items: center;
+                            width: 100%;
+                            justify-content: space-between;
+                            border-right: 0;
+                            .schedule {
+                                .date {
+                                    font-size: 18px;
+                                    font-weight: 900;
+                                    color: #000000;
+                                    .day {
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        display: block;
+                                    }
+                                }
+                                &:last-child {
+                                    text-align: end;
+                                }
+                            }
+                        }
+                        .paxCountHeader {
+                            display: flex;
+                            gap: 10px;
+                            padding: 0 15px;
+                            align-items: center;
+                            .latoBold {
+                                font-size: 18px;
+                                font-weight: 800;
+                            }
+                        }
+                    }
+                }
+                #accordionPanelsStayOpenExample {
+                    margin-bottom: 1rem;
+                    .accordion-item {
+                        .accordion-collapse {
+                            .accordion-body {
+                                .addTraveller {
+                                    padding-left: 0;
+                                    .singleTraveller {
+                                        .traveller {
+                                            flex-direction: column;
+                                            align-items: start;
+                                            .ageQues {
+                                                width: auto;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        #panelsStayOpen-collapseTwo {
+                            .accordion-body {
+                                .tripSummary {
+                                    .summaryHead {
+                                        h2 {
+                                            font-size: 17px;
+                                            line-height: 26px;
+                                        }
+                                        .bottomSection {
+                                            gap: 10px;
+                                            .events {
+                                                gap: 10px;
+                                                .name {
+                                                    font-size: 11px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .itineraryDay {
+                                        .dayHeader {
+                                            h4 {
+                                                font-size: 14px;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        .dayContent {
+                                            gap: 15px;
+                                            .dayEvent {
+                                                flex-basis: calc(50% - 8px);
+                                                max-width: calc(50% - 8px);
+                                                .rightSection {
+                                                    .eventTitle {
+                                                        font-size: 12px;
+                                                        line-height: 14px;
+                                                        word-break: break-word;
+                                                        .singleEvent {
+                                                            margin-left: 5px;
+                                                            font-size: 12px;
+                                                            font-weight: 400;
+                                                            line-height: 14px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .insuranceWrapper {
+                        display: none;
+                        .insurance-container-wrapper {
+                            .planListingCard {
+                                .cardHeaderContent {
+                                    .insuranceDetails {
+                                        .headingSubHeadingFlex {
+                                            .inHeading {
+                                                flex-direction: column;
+                                                gap: 5px;
+                                                margin-bottom: 10px;
+                                                .mostPopularTag {
+                                                    margin-left: 0;
+                                                    width: max-content;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .reviewTravel {
+                    .travelDetails {
+                        flex-direction: column;
+                        align-items: center;
+                        .travelImg {
+                            width: 100%;
+                        }
+                        .packageDetails {
+                            width: 100%;
+                            .packageName {
+                                font-size: 20px;
+                            }
+                            .dates {
+                                align-items: start;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .paymentDetails {
+            .paymentMethods {
+                flex-direction: column;
+                #payment-tab {
+                    width: 100%;
+                    flex-direction: unset;
+                    margin-bottom: 5px;
+                    .nav-link {
+                        border-radius: 0 !important;
+                        .tabWrapper {
+                            flex-direction: column;
+                            gap: 5px;
+                            .titleTab {
+                                text-align: center;
+                                .subTitle {
+                                    display: none;
+                                }
+                            }
+                        }
+                        &.active {
+                            border: 1px solid #9f9f9f;
+                        }
+                    }
+                }
+                #payment-tabContent {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425.98px) {
+    .paymentBody {
+        .reviewtravelDetails {
+            .leftPanel {
+                #accordionPanelsStayOpenExample {
+                    .accordion-item {
+                        .accordion-collapse {
+                            .accordion-body {
+                                #addTraveller {
+                                    .modal-body {
+                                        #traveller-tabContent {
+                                            .modalTravellerform {
+                                                form {
+                                                    .css-b62m3t-container {
+                                                        font-size: 12px;
+                                                    }
+                                                    .clearFeed {
+                                                        font-size: 12px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.plusActive {
+    display: block !important;
+}
+
+.plusNon {
+    display: none !important;
+}
+
+.plusActived {
+    display: flex !important;
+}

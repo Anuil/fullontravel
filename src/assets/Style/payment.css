@@ -1,0 +1,1804 @@
+@charset "UTF-8";
+.shake {
+  animation: shakeAnimation 0.5s ease-in-out 3;
+}
+
+@keyframes shakeAnimation {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+}
+.paymentBody {
+  padding: 4.4rem 0;
+}
+.paymentBody h1,
+.paymentBody h2,
+.paymentBody h3,
+.paymentBody h4,
+.paymentBody h5,
+.paymentBody h6,
+.paymentBody p {
+  margin-bottom: 0;
+}
+.paymentBody ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.paymentBody .topHeader {
+  padding: 18px 0;
+  width: 100%;
+}
+.paymentBody .topHeader .headerContent {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.paymentBody .topHeader .headerContent .head .reviewHead {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+.paymentBody .topHeader .headerContent ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  gap: 30px;
+}
+.paymentBody .topHeader .headerContent ul li {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.paymentBody .topHeader .headerContent ul li.active {
+  color: #16477f;
+  font-weight: 700;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel {
+  box-shadow: 0px 1px 5px #9f9f9f;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails {
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .travelImg {
+  height: 180px;
+  width: 30%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .travelImg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails {
+  color: #9f9f9f;
+  width: 70%;
+  font-size: 13px;
+  cursor: default;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .head {
+  font-size: 10px;
+  color: #333333;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .packageName {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-word;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .stayDay {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .stayDay .day {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 13px;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .stayDay .day span {
+  font-weight: 500;
+  color: var(--text-color);
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .stayDay .day .place {
+  color: #f9f9f9;
+  width: -moz-max-content;
+  width: max-content;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .stayDay .day .place span {
+  display: block;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .stayDay .day::after {
+  content: "\f178";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #9b9bb5;
+  margin: 0 5px;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .stayDay .day:last-child::after {
+  display: none;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap {
+  position: relative;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .editTravel {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: transparent;
+  border: 0;
+  color: #333333;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper .svgIcon {
+  height: 1.5em;
+  width: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper .svgIcon img {
+  height: 1em;
+  width: 1em;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper .duration {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper .people {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper .people .text {
+  text-transform: capitalize;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-word;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper .roomConfig {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper .dates {
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper .dates .date {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper .transfer {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .travelDetailwrap .travelDetailwrapper .transfer .text {
+  text-transform: capitalize;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-word;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .facilityIcon {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+  margin-top: 10px;
+  display: none;
+  gap: 10px;
+}
+.paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .facilityIcon img {
+  height: 20px;
+  width: 20px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item {
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+  border-radius: 0;
+  border: none;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:focus {
+  box-shadow: none;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button.collapsed {
+  height: unset;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background: transparent;
+  color: #9b9b9b;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .travellerTextContainer {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding-right: 18px;
+  margin-bottom: 1rem;
+  display: none;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .travellerTextContainer .travellerText {
+  font-weight: 900;
+  color: #000;
+  font-size: 24px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .travellerTextContainer .roomInfoText {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  position: relative;
+  bottom: 2px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .personImg {
+  width: 35px;
+  height: 35px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .personImg img {
+  width: 100%;
+  height: 100%;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dashed #008cff;
+  width: 100%;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller .travellerDetail .roomConfig {
+  display: flex;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  flex-wrap: wrap;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller .travellerDetail .roomConfig .no_Of {
+  color: #9b9b9b;
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 5px;
+  align-items: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller .travellerDetail .roomConfig .no_Of .roomDivider {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller .travellerDetail .roomConfig .no_Of:last-child .roomDivider {
+  display: none;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller .travellerDetail .addTravellerbtn {
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 20px;
+  color: #008cff;
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller .ageQues {
+  width: 60%;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller .ageQues span {
+  font-size: 11px;
+  font-weight: 700;
+  color: #979797;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller:last-child .traveller {
+  border-bottom: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-header .modal-title {
+  color: #9b9b9b;
+  font-weight: 800;
+  font-size: 20px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body {
+  background: #f2f2f2;
+  padding: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body .tabSelection {
+  background: #ffffff;
+  margin-bottom: 10px;
+  padding: 1rem;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body .tabSelection .travellerHead {
+  font-weight: 800;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-bottom: 1rem;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body .tabSelection .travellerHead span {
+  font-size: 22px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body .tabSelection #traveller-tab {
+  gap: 5px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body .tabSelection #traveller-tab .nav-item .nav-link {
+  border: 1px dashed #008cff;
+  color: #008cff;
+  width: 82px;
+  height: 80px;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body .tabSelection #traveller-tab .nav-item .nav-link i {
+  font-size: 20px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body .tabSelection #traveller-tab .nav-item .nav-link.active {
+  border: 1px solid #008cff;
+  background: #eaf5ff;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent {
+  background: #ffffff;
+  padding: 15px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform .heading {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: solid 1px rgba(169, 212, 246, 0.3);
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform .subText {
+  margin: 10px 0 20px 0 !important;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .coTravel {
+  display: flex;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .coTravel .css-b62m3t-container {
+  margin-bottom: 0;
+  width: 80%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .coTravel .clearFeed {
+  width: 20%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: 0;
+  border: 1px solid #cccccc;
+  background: #ff8383;
+  color: #ffffff;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .coTravel .clearFeed:hover {
+  color: #ff8383;
+  background: #ffffff;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form label {
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form label span {
+  color: red;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .inputControl {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 3.6px;
+  display: flex;
+  height: 44px;
+  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 1rem;
+  outline: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .inputControl::-moz-placeholder {
+  color: #9f9f9f;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .inputControl::placeholder {
+  color: #9f9f9f;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .inputControl.inputError {
+  border: 1px solid #ff8383;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .inputControl.inputError::-moz-placeholder {
+  color: #ff8383;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .inputControl.inputError::placeholder {
+  color: #ff8383;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .css-b62m3t-container {
+  height: 44px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  outline: 0;
+  display: flex;
+  align-items: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .css-b62m3t-container .css-13cymwt-control,
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .css-b62m3t-container .css-t3ipsp-control {
+  border: 0;
+  width: 100%;
+  outline: none;
+  box-shadow: unset;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .css-b62m3t-container .css-13cymwt-control:hover,
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .css-b62m3t-container .css-t3ipsp-control:hover {
+  border-color: unset;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform .checkboxForm {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform .checkboxForm label {
+  color: #515151;
+  font-weight: 400;
+  margin-bottom: 0;
+  width: 100%;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform .checkboxForm label.services {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 18px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform .checkboxForm .inputFor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform .checkboxForm .inputFor .checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 24px;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  border: 2px solid black;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform .checkboxForm .inputFor .checkbox::before {
+  font-family: "Quicksand", sans-serif;
+  position: absolute;
+  bottom: -10px;
+  left: 1px;
+  content: "✔";
+  font-size: 30px;
+  color: rgb(255, 153, 0);
+  transform: scale(0);
+  transition: all 0.2s ease-in-out;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform .checkboxForm .inputFor .checkbox:checked::before {
+  animation: zoom 0.5s ease-in-out;
+  transform: scale(1);
+}
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+  }
+  20% {
+    transform: scale(1.5);
+  }
+  40% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  90% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-footer {
+  justify-content: center;
+  border: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-footer p {
+  margin: 0;
+  font-size: 12px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-footer .addTravellerbtn {
+  font-weight: 800;
+  color: #fff;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  height: 48px;
+  min-width: 200px;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 50px;
+  cursor: pointer;
+  background: linear-gradient(93deg, #53b2fe, #065af3);
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-footer .addTravellerbtn:disabled {
+  background: grey;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form .travellerDetailform {
+  padding: 15px 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form .travellerDetailform h5 {
+  font-weight: 800;
+  margin-bottom: 1rem !important;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form .travellerDetailform label {
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #9b9b9b;
+  height: 33px;
+  display: flex;
+  align-items: end;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form .travellerDetailform label span {
+  color: red;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form .travellerDetailform .inputControl {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 3.6px;
+  display: flex;
+  height: 44px;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form .travellerDetailform .inputControl:disabled {
+  background: #e9e9e9;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form #GSTDetails .accordion-item .accordion-header .accordion-button {
+  font-size: 1.1rem;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form #GSTDetails .accordion-item .accordion-header .accordion-button[aria-expanded=false]::before {
+  content: "";
+  background-image: url(/src/assets/images/svg/plus.svg);
+  height: 14px;
+  width: 14px;
+  background-size: contain;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form #GSTDetails .accordion-item .accordion-header .accordion-button[aria-expanded=true]::before {
+  content: "";
+  background-image: url(/src/assets/images/svg/minus.svg);
+  height: 14px;
+  width: 14px;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form #GSTDetails .accordion-item .accordion-collapse .accordion-body {
+  padding: 0 1rem;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body {
+  padding: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary {
+  padding: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .divider {
+  min-width: 1px;
+  max-width: 1px;
+  width: 1px;
+  min-height: 17px;
+  max-height: 17px;
+  height: 17px;
+  display: flex;
+  background: #e0e0e0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .summaryHead h2 {
+  display: none;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .summaryHead .bottomSection {
+  margin: 0px 0 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: #f9f9f9;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .summaryHead .bottomSection .events {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .summaryHead .bottomSection .events .icon {
+  height: 16px;
+  width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .summaryHead .bottomSection .events .icon img {
+  width: 100%;
+  height: 100%;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .summaryHead .bottomSection .events .name {
+  font-size: 14px;
+  color: #000000;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay ul {
+  margin: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayHeader {
+  background: #f4f6f9;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  gap: 15px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayHeader h4 {
+  color: #202020;
+  font-size: 14px;
+  font-weight: 600;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayHeader .dayEvent {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayHeader .dayEvent .eventCount {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #000;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayHeader .dayEvent .eventCount img {
+  height: 12px;
+  width: 12px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayHeader .dayEvent .eventCount:last-child .divider {
+  display: none;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent {
+  padding: 20px 0px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: start;
+  background: #f6f5f5;
+  flex-basis: calc(33% - 12px);
+  max-width: calc(33% - 12px);
+  box-sizing: border-box;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent .leftSection {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  color: var(--primary-color);
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent .leftSection .count {
+  font-size: 14px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent .leftSection img {
+  height: 14px;
+  width: 14px;
+  margin-top: 3px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent .rightSection {
+  width: 100%;
+  height: 100%;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent .rightSection .leisure_day {
+  height: 100%;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent .rightSection .leisure_day .leisureHead {
+  display: flex;
+  gap: 5px;
+  border-radius: 5px;
+  background: rgb(236, 253, 255);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding: 5px;
+  margin: 0;
+  color: #027fb1;
+  font-size: 13px;
+  font-weight: 400;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent .rightSection .eventTitle {
+  font-weight: 600;
+  font-size: 14px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent .rightSection .eventTitle .singleEvent {
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .mealWrapper {
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 15px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .mealWrapper .mealTime {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .mealWrapper .lunchDnnr {
+  display: flex;
+  gap: 10px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .mealWrapper .lunchDnnr .sep {
+  background: #e0e0e0;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseThree .accordion-body {
+  padding: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseThree .accordion-body .travelInEx {
+  background: #eef6ff;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseThree .accordion-body .travelInEx .detailedPoint {
+  padding: 15px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseThree .accordion-body .travelInEx .detailedPoint .point .head {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 13px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseThree .accordion-body .travelInEx .detailedPoint .point ul {
+  list-style: circle;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseThree .accordion-body .travelInEx .detailedPoint .point ul li {
+  font-size: 12px;
+  font-weight: 600;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseThree .accordion-body .travelInEx .detailedPoint .point.inclusion {
+  border-bottom: 2px dashed #b3b3b3;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions {
+  margin-bottom: 0rem;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions .customAccordion {
+  margin-bottom: 0;
+  border-radius: 0;
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+  box-shadow: none;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions .customAccordion .customAccord .accordionTitle {
+  gap: 10px;
+  align-items: center;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions .customAccordion .customAccord .accordionTitle svg {
+  height: 19px;
+  width: 19px;
+  display: none;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions .customAccordion .customAccord .accordionTitle svg path {
+  fill: #009a3c;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions .customAccordion .customAccord .accordionTitle .title {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions .customAccordion .customAccord .accordionTitle::before {
+  content: "";
+  background-image: url(../images/svg/plus.svg);
+  height: 14px;
+  width: 14px;
+  background-size: contain;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions .customAccordion.show .customAccord .accordionTitle::before {
+  content: "";
+  background-image: url(../images/svg/minus.svg);
+  height: 2px;
+  width: 14px;
+  background-size: contain;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions .customAccordion .accordionDetails {
+  font-size: 13px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions .customAccordion .accordionDetails .details {
+  border-top: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  padding: 20px 0 0 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseFour .accordion-body .terms_conditions .customAccordion .accordionDetails .details ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content {
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .policyHeader .policyHeading .heading {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .policyHeader .policyHeading .subText {
+  color: #589231;
+  font-size: 14px;
+  font-weight: 700;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .policyHeader .lightText {
+  color: #9b9b9b;
+  font-weight: 400;
+  font-size: 14px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .policyHeader .lightText span {
+  font-weight: 700;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .trackTime {
+  margin: 2rem 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .trackTime .hr_tracker_strip {
+  background: linear-gradient(270.01deg, rgba(249, 198, 169, 0.885417) 0.01%, #ffe6ac 51.79%, #c8e5b5 102.5%);
+  border-radius: 6px;
+  height: 8px;
+  width: 100%;
+  display: flex;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .trackTime ul {
+  display: flex;
+  justify-content: space-between;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .trackTime ul li {
+  margin: -18px 30px 0 20px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .trackTime ul li .date {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 20px 0 5px 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .trackTime ul li .text {
+  font-size: 11px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .date_change_policy_box {
+  padding: 28px;
+  border-radius: 4px;
+  background: rgba(190, 202, 206, 0.15);
+  margin-top: 25px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .date_change_policy_box ul {
+  list-style-type: disc;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .date_change_policy_box ul li {
+  margin-bottom: 15px;
+  position: relative;
+  font-size: 12px;
+  color: #000;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content .date_change_policy_box ul li::marker {
+  color: #589231;
+  font-size: 20px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .policyList .policy_content:last-child {
+  margin-bottom: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper {
+  background-image: linear-gradient(30deg, #fff 33%, #ffe0cb);
+  margin-bottom: 5px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insuranceSectionHeaderContainer {
+  padding: 16px 24px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insuranceSectionHeaderContainer .headerCardSeparator {
+  display: flex;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d8d8d8;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insuranceSectionHeaderContainer .headerCardSeparator .addonHeaderIcon {
+  height: 24px;
+  width: 24px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insuranceSectionHeaderContainer .headerCardSeparator .addonHeaderIcon img {
+  max-width: 100%;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insuranceSectionHeaderContainer .headerCardSeparator .append {
+  margin-left: 18px;
+  margin-bottom: 8px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insuranceSectionHeaderContainer .headerCardSeparator .append .addonHeader {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 4px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper {
+  padding: 16px 24px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard {
+  background: #fff;
+  padding: 16px;
+  box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.11);
+  border: 1px solid #d8d8d8;
+  border-radius: 16px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 0px 0px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent .insuranceDetails {
+  display: flex;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent .insuranceDetails .headerIcon {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent .insuranceDetails .headingSubHeadingFlex {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent .insuranceDetails .headingSubHeadingFlex .inHeading {
+  display: flex;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent .insuranceDetails .headingSubHeadingFlex .inHeading .cardHeading {
+  font-weight: 900;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent .insuranceDetails .headingSubHeadingFlex .inHeading .mostPopularTag {
+  color: #834cc5;
+  font-size: 12px;
+  font-weight: 900;
+  border: 1px solid #834cc5;
+  border-radius: 16px;
+  line-height: normal;
+  padding: 2px 8px;
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent .insuranceDetails .headingSubHeadingFlex .cardSubHeading {
+  font-weight: 400;
+  color: #4a4a4a;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent .tncLink {
+  display: flex;
+  font-weight: 700;
+  color: #008cff;
+  cursor: pointer;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .benefitsDetailTitle {
+  font-weight: 700;
+  color: #000;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .benefitDetailsList {
+  padding-left: 0;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .benefitDetailsList .benefits {
+  display: flex;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .benefitDetailsList .benefits .icon {
+  width: 16px;
+  height: 16px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .benefitDetailsList .benefits .benefitsHeadingContent {
+  margin-bottom: 4px;
+  margin-left: 6px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .benefitDetailsList .benefits .benefitsHeadingContent .headingPrice {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .benefitDetailsList .benefits .benefitsHeadingContent .headingPrice .benefitPrice {
+  color: #000;
+  font-weight: 700;
+  margin-left: auto;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .benefitDetailsList .viewBenefitButton {
+  margin-top: 6px;
+  color: #008cff;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .addonPriceMap {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .addonPriceMap .addonPriceDiff {
+  font-size: 16px;
+  font-weight: 900;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .addonPriceMap .addonPriceDiffUnit {
+  margin-bottom: 8px;
+}
+.paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .addonPriceMap .selectButton {
+  border: 1px solid #008cff;
+  background: #fff;
+  min-width: 74px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  min-height: 32px;
+  color: #008cff;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 12px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails {
+  box-shadow: 0px 1px 5px #9f9f9f;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .detailHead {
+  font-size: 18px;
+  background: #eef6ff;
+  padding: 7px 10px;
+  display: flex;
+  gap: 10px;
+  height: 50px;
+  align-items: center;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .detailHead .ruppeeIcon {
+  border: 2px solid #000;
+  border-radius: 50%;
+  font-weight: 600;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown {
+  padding: 10px 10px 5px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .overPrice {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 13px;
+  padding: 5px 0;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .overPrice .inputWrap {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .overPrice.text-danger {
+  font-size: 16px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .priceTable {
+  margin-top: 0.5rem;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .priceTable .linkBtn {
+  width: 100%;
+  border: none;
+  background: none;
+  color: #008cff;
+  text-decoration: underline;
+  font-size: 12px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .priceTable #pricetableModal .modal-dialog .modal-content .modal-header {
+  border-bottom: none;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .priceTable #pricetableModal .modal-dialog .modal-content .modal-header .modal-title .titleHead {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .priceTable #pricetableModal .modal-dialog .modal-content .modal-header .modal-title .subTitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7a7a7a;
+  padding-top: 4px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .priceTable #pricetableModal .modal-dialog .modal-content .modal-header .btn-close {
+  cursor: pointer;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  background: #e7e7e7;
+  top: -7px;
+  right: -1px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .priceTable #pricetableModal .modal-dialog .modal-content .modal-footer {
+  display: unset;
+  border-top: none;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .priceTable #pricetableModal .modal-dialog .modal-content .modal-footer ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .priceDetails .priceBreakdown .priceTable #pricetableModal .modal-dialog .modal-content .modal-footer ul li {
+  font-size: 12px;
+  line-height: 18px;
+  color: #595959;
+  margin-bottom: 7px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection #feedBack .accordion-item .accordion-header .accordion-button {
+  font-size: 14px;
+  background: #378ff2;
+  padding: 7px 10px;
+  color: #ffffff;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection #feedBack .accordion-item .accordion-header .accordion-button::after {
+  content: "";
+  mix-blend-mode: plus-lighter;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection #feedBack .accordion-item .accordion-collapse .accordion-body {
+  padding: 0.5rem;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection #feedBack .accordion-item .accordion-collapse .accordion-body ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection #feedBack .accordion-item .accordion-collapse .accordion-body ul li {
+  display: flex;
+  gap: 5px;
+  font-size: 13px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .bookingBtn .btn {
+  background: #f37002;
+  color: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .couponCode {
+  box-shadow: 0px 1px 5px #9f9f9f;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .couponCode .couponHead {
+  font-size: 14px;
+  background: #378ff2;
+  padding: 7px 10px;
+  color: #ffffff;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .couponCode .applyCoupon form {
+  display: flex;
+  padding: 15px 7px;
+  gap: 10px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .couponCode .applyCoupon form .couponInput {
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #9f9f9f;
+  outline: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+.paymentBody .reviewtravelDetails .rightPanel .bookingSection .couponCode .applyCoupon form .couponBtn {
+  width: 30%;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  background: #378ff2;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .couponsHead {
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .emiOptions {
+  background: #f2f2f2;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .emiOptions .emiIcon {
+  background: linear-gradient(225deg, #667eea 4.42%, #764ba2 100%);
+  border-radius: 20px;
+  padding: 0 3px;
+  color: #fff;
+  width: 34px;
+  font-size: 8px;
+  font-weight: 900;
+  height: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .emiOptions .emiIcon span {
+  margin-right: 2px;
+  color: #fff;
+  font-size: 7px;
+  font-weight: 900;
+  border: 1px solid hsla(0, 0%, 100%, 0.7);
+  border-radius: 30px;
+  width: 9px;
+  height: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .emiOptions .emiDetails .emiPermonth {
+  font-weight: 700;
+  color: #4a4a4a;
+  font-size: 14px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .emiOptions .emiDetails .relateText {
+  font-size: 11px;
+  color: #9b9b9b;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .emiOptions .emiDetails .relateText .linkText {
+  font-size: 11px;
+  color: #008cff;
+  cursor: pointer;
+  font-weight: 900;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsInput {
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsInput .enterCoupon {
+  display: flex;
+  justify-content: space-between;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsInput .enterCoupon .fieldText {
+  font-weight: 500;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsInput .enterCoupon .enterCodeButton {
+  font-weight: 700;
+  text-align: right;
+  color: #008cff;
+  cursor: pointer;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe {
+  position: relative;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter {
+  display: flex;
+  width: 100%;
+  min-height: 70px;
+  max-height: 200px;
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 16px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter .couponText {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter .couponText .couponIcon {
+  width: 8%;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter .couponText .couponWrapper {
+  width: 92%;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter .couponText .couponWrapper .flexCouponContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter .couponText .couponWrapper .flexCouponContainer .couponIcon {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter .couponText .couponWrapper .flexCouponContainer .couponTitle {
+  display: flex;
+  flex: 1;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter .couponText .couponWrapper .flexCouponContainer .couponTitle p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter .couponText .couponWrapper .flexCouponContainer .couponPrice span {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter .couponText .couponWrapper .couponDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter .couponText .couponWrapper .couponDetails p {
+  font-size: 11px;
+  color: #000;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .couponsOuter.active {
+  background: linear-gradient(96deg, transparent, #d3e7ff);
+  border: 1px solid #008cff;
+  padding: 16px;
+  color: #007e7d;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .couponsList .coupe .linkText {
+  font-size: 11px;
+  color: #008cff;
+  cursor: pointer;
+  font-weight: 900;
+  text-transform: uppercase;
+  pointer-events: auto;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
+.paymentBody .reviewtravelDetails .rightPanel .offersSection .offerZone .rMoreCoupons .linkText {
+  font-size: 14px;
+  color: #008cff;
+  cursor: pointer;
+  font-weight: 900;
+}
+.paymentBody .paymentDetails {
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0px 1px 5px #9f9f9f;
+}
+.paymentBody .paymentDetails .paymentHead {
+  display: flex;
+  justify-content: space-between;
+}
+.paymentBody .paymentDetails .paymentHead .heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+.paymentBody .paymentDetails .paymentHead .pageSession {
+  font-size: 12px;
+  background: #ffd7af;
+  border-radius: 25px;
+  padding: 6px 10px;
+  color: #000000;
+}
+.paymentBody .paymentDetails .paymentHead .pageSession span {
+  color: #ea0000;
+  font-weight: 600;
+}
+.paymentBody .paymentDetails .paymentMethods {
+  display: flex;
+  align-items: start;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px #9f9f9f;
+  overflow: hidden;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab {
+  width: 30%;
+  flex-direction: column;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link {
+  height: 100px;
+  border-radius: 0;
+  border: 1px solid #9f9f9f;
+  border-bottom: 0;
+  background: #f5f6f8;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link:last-child {
+  border-bottom: 1px solid #9f9f9f;
+  border-bottom-left-radius: 10px;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link:first-child {
+  border-top-left-radius: 10px;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link .tabWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link .tabWrapper .creditIcons {
+  height: 40px;
+  width: 40px;
+  padding: 7px;
+  background: #f5f6f8;
+  border-radius: 7px;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link .tabWrapper .creditIcons svg {
+  height: 100%;
+  width: 100%;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link .tabWrapper .titleTab {
+  text-align: left;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link .tabWrapper .titleTab .title {
+  color: #000;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 600;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link .tabWrapper .titleTab .subTitle {
+  font-size: 11px;
+  color: #000;
+  display: inline-block;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link.active {
+  background: transparent;
+  border-right: 0;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link.active .tabWrapper .titleTab .title {
+  color: #2791d8;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tabContent {
+  width: 70%;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tabContent .tab-pane {
+  padding: 1rem;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tabContent .tab-pane form label {
+  margin-bottom: 0.2rem;
+  font-size: 14px;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tabContent .tab-pane form .form-control,
+.paymentBody .paymentDetails .paymentMethods #payment-tabContent .tab-pane form .form-select {
+  box-shadow: none;
+  border-radius: 0;
+  outline: 0;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tabContent .tab-pane form .totalFare {
+  font-weight: 600;
+  font-size: 18px;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tabContent .tab-pane form .totalFare span {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+.paymentBody .paymentDetails .paymentMethods #payment-tabContent .tab-pane form .paymentBtn {
+  background: var(--primary-color);
+  border-radius: 25px;
+  padding: 7px 20px;
+  color: #fff;
+  font-weight: 600;
+  border: 0;
+}
+
+@media (max-width: 768.98px) {
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form .travellerDetailform label {
+    height: unset;
+  }
+}
+@media (max-width: 575.98px) {
+  .paymentBody {
+    background: #f2f2f2;
+    padding: 4.4rem 0 1rem;
+  }
+  .paymentBody .topHeader {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1.41px;
+    background: #fff;
+    color: #000000;
+  }
+  .paymentBody .topHeader .headerContent {
+    justify-content: space-between;
+  }
+  .paymentBody .topHeader .headerContent .head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .paymentBody .topHeader .headerContent .head .backButton .goBtn {
+    background: transparent;
+    border: 0;
+  }
+  .paymentBody .topHeader .headerContent .head .reviewHead {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+  }
+  .paymentBody .topHeader .headerContent .head .subHead {
+    font-size: 14px;
+    color: rgb(74, 74, 74);
+  }
+  .paymentBody .topHeader .headerContent ul {
+    display: none;
+  }
+  .paymentBody .reviewtravelDetails {
+    margin: 1rem 0;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background: #fff;
+    padding: 15px 0;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageHead {
+    padding: 0 15px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageHead .packageNameReview {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageHead .packageNameReview .packageName {
+    font-size: 20px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .destinationsNight {
+    margin: 0.5rem 0;
+    padding: 0 15px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .destinationsNight p {
+    font-weight: 400;
+    color: rgb(74, 74, 74);
+    font-size: 14px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .destinationsNight p .durationReview {
+    color: unset;
+    font-weight: unset;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .destinationsNight p .destinationSight {
+    color: unset;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageDates {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageDates .packageDatesLeft {
+    padding: 15px 15px;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-right: 0;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageDates .packageDatesLeft .schedule .date {
+    font-size: 18px;
+    font-weight: 900;
+    color: #000000;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageDates .packageDatesLeft .schedule .date .day {
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageDates .packageDatesLeft .schedule:last-child {
+    text-align: end;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageDates .paxCountHeader {
+    display: flex;
+    gap: 10px;
+    padding: 0 15px;
+    align-items: center;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageDates .paxCountHeader .latoBold {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample {
+    margin-bottom: 1rem;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller {
+    padding-left: 0;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller {
+    flex-direction: column;
+    align-items: start;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller .ageQues {
+    width: auto;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .summaryHead h2 {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .summaryHead .bottomSection {
+    gap: 10px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .summaryHead .bottomSection .events {
+    gap: 10px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .summaryHead .bottomSection .events .name {
+    font-size: 11px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayHeader h4 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent {
+    gap: 15px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent {
+    flex-basis: calc(50% - 8px);
+    max-width: calc(50% - 8px);
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent .rightSection .eventTitle {
+    font-size: 12px;
+    line-height: 14px;
+    word-break: break-word;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary .itineraryDay .dayContent .dayEvent .rightSection .eventTitle .singleEvent {
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper {
+    display: none;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent .insuranceDetails .headingSubHeadingFlex .inHeading {
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .cardHeaderContent .insuranceDetails .headingSubHeadingFlex .inHeading .mostPopularTag {
+    margin-left: 0;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails {
+    flex-direction: column;
+    align-items: center;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .travelImg {
+    width: 100%;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails {
+    width: 100%;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .packageName {
+    font-size: 20px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .dates {
+    align-items: start;
+  }
+  .paymentBody .paymentDetails .paymentMethods {
+    flex-direction: column;
+  }
+  .paymentBody .paymentDetails .paymentMethods #payment-tab {
+    width: 100%;
+    flex-direction: unset;
+    margin-bottom: 5px;
+  }
+  .paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link {
+    border-radius: 0 !important;
+  }
+  .paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link .tabWrapper {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link .tabWrapper .titleTab {
+    text-align: center;
+  }
+  .paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link .tabWrapper .titleTab .subTitle {
+    display: none;
+  }
+  .paymentBody .paymentDetails .paymentMethods #payment-tab .nav-link.active {
+    border: 1px solid #9f9f9f;
+  }
+  .paymentBody .paymentDetails .paymentMethods #payment-tabContent {
+    width: 100%;
+  }
+}
+@media (max-width: 425.98px) {
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .css-b62m3t-container {
+    font-size: 12px;
+  }
+  .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body #addTraveller .modal-body #traveller-tabContent .modalTravellerform form .clearFeed {
+    font-size: 12px;
+  }
+}
+.plusActive {
+  display: block !important;
+}
+
+.plusNon {
+  display: none !important;
+}
+
+.plusActived {
+  display: flex !important;
+}/*# sourceMappingURL=payment.css.map */
