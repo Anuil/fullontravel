@@ -40,7 +40,7 @@
 }
 .paymentBody .topHeader .headerContent {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .paymentBody .topHeader .headerContent .head .reviewHead {
@@ -591,7 +591,7 @@
   color: #9b9b9b;
   height: 33px;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body form .travellerDetailform label span {
   color: red;
@@ -735,7 +735,7 @@
   gap: 5px;
   padding: 10px;
   border-radius: 10px;
-  align-items: start;
+  align-items: flex-start;;
   background: #f6f5f5;
   flex-basis: calc(33% - 12px);
   max-width: calc(33% - 12px);
@@ -1097,8 +1097,8 @@
 .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .addonPriceMap {
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  align-items: end;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .addonPriceMap .addonPriceDiff {
   font-size: 16px;
@@ -1473,7 +1473,7 @@
 }
 .paymentBody .paymentDetails .paymentMethods {
   display: flex;
-  align-items: start;
+  align-items: flex-start;;
   margin-top: 1rem;
   border-radius: 10px;
   box-shadow: 0px 1px 5px #9f9f9f;
@@ -1620,7 +1620,7 @@
   }
   .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageHead .packageNameReview {
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;;
     gap: 10px;
   }
   .paymentBody .reviewtravelDetails .leftPanel .holidayDtlWrapper .packageHead .packageNameReview .packageName {
@@ -1686,7 +1686,7 @@
   }
   .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller {
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;;
   }
   .paymentBody .reviewtravelDetails .leftPanel #accordionPanelsStayOpenExample .accordion-item .accordion-collapse .accordion-body .addTraveller .singleTraveller .traveller .ageQues {
     width: auto;
@@ -1753,7 +1753,7 @@
     font-size: 20px;
   }
   .paymentBody .reviewtravelDetails .leftPanel .reviewTravel .travelDetails .packageDetails .dates {
-    align-items: start;
+    align-items: flex-start;;
   }
   .paymentBody .paymentDetails .paymentMethods {
     flex-direction: column;

@@ -26,7 +26,7 @@ export default function CancellationPolicy() {
         <h4>9. Sustainability Managers</h4>
         <p>Develop and implement strategies for eco-friendly travel operations. Promote responsible tourism practices to minimize the company’s environmental footprint. Collaborate with vendors to ensure sustainable sourcing and services. Educate clients and staff about the importance of sustainable travel. Monitor and report on the company’s sustainability goals and initiatives.</p>
 
-        <div className="styleText">"Excited to join our journey? Drop us a line at hello@fullontravel.com and let’s explore the possibilities together!"</div>
+        <div className="styleText">&quot;Excited to join our journey? Drop us a line at hello@fullontravel.com and let’s explore the possibilities together!&quot;</div>
 
 
         </div>

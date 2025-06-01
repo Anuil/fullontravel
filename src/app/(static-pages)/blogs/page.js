@@ -95,7 +95,7 @@ const ListingBlog = () => {
                     <div className="col-12">
                         <div className="blogBanner">
                             
-                            <img src="https://cdn.fullontravel.com/dev/blog.webp-714245.webp" alt="" />
+                            <Image src="https://cdn.fullontravel.com/dev/blog.webp-714245.webp" alt="" />
                         </div>
 
                         {/* Bootstrap Tabs */}
@@ -133,7 +133,7 @@ const ListingBlog = () => {
                                             <Link href={`/blog/${blog?.slug}`}>
                                                 <div className="blogscard">
                                                     <div className="blogImage">
-                                                        <img src={BASE_IMAGE_SRC + blog?.imageUrl} alt={blog?.title} />
+                                                        <Image src={BASE_IMAGE_SRC + blog?.imageUrl} alt={blog?.title} />
                                                     </div>
                                                     <div className="blogContent">
                                                         <div className="blogDetail">

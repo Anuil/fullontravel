@@ -18,7 +18,7 @@ export default function BlogListingClient({ blogs, categories }) {
     <div className="listingBlog">
       <div className="customContainer">
         <div className="blogBanner">
-          <img src="https://cdn.fullontravel.com/dev/blog.webp-714245.webp" alt="Blog Banner" />
+          <Image src="https://cdn.fullontravel.com/dev/blog.webp-714245.webp" alt="Blog Banner" />
         </div>
 
         {/* Category Tabs */}

@@ -35,6 +35,7 @@ import HeroLocationDropdown from "./home-slick-slider/HeroLocationDropdown";
 
 export default async function HomePage() {
   const { data: Testimonials } = await getTestimonials(1, 100);
+  console.log("Testimonials",Testimonials)
   // const { data: Destinations } = await getDestination();
   const destinationRes = await getDestinations();
 
@@ -361,7 +362,7 @@ export default async function HomePage() {
                       Cultural and <span>Historical Wonders</span>
                     </h5>
                     <span className="subHead">
-                      Explore the World's Rich Heritage
+                      Explore the World&apos;s Rich Heritage
                     </span>
                     <div className="detailText">
                       Uncover the stories, traditions, and landmarks that shaped

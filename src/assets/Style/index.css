@@ -696,7 +696,7 @@ a {
             backdrop-filter: blur(5px);
   }
   body .bookNowModalToggle2 .modal-dialog .modal-content .modal-header {
-    align-items: start;
+    align-items: flex-start;;
     border-bottom: none;
   }
   body .bookNowModalToggle2 .modal-dialog .modal-content .modal-header .modal-title {
@@ -880,7 +880,7 @@ a {
   }
   body .bookNowModalToggle2 .modal-dialog .modal-content .modal-footer {
     border-top: none;
-    justify-content: start;
+    justify-content: flex-start;
   }
   body .bookNowModalToggle2 .modal-dialog .modal-content .modal-footer ul {
     font-size: 12px;
@@ -906,7 +906,7 @@ a {
     background: linear-gradient(45deg, #4caf50, #2e7d32);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     gap: 10px;
     padding: 5px 10px 5px 20px;
@@ -1022,7 +1022,7 @@ a {
     border-radius: 0;
     display: flex;
     gap: 10px;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     color: #676767;
     font-size: 16px;
@@ -1047,7 +1047,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 2px;
-    align-items: start;
+    align-items: flex-start;;
   }
   body .profilePage .profile-section .profile-tab-view #profile-page-tab .nav-link .tab-details .head {
     color: #000000;
@@ -1297,8 +1297,8 @@ a {
   }
   body .profilePage .profile-tabs #profile-page-tabContent .tab-pane .pane-box #coPassenger .travelDetails .packageDetails .travelDetailwrap .btnDatewrap {
     display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
     flex-direction: column;
     gap: 4px;
   }
@@ -1924,7 +1924,7 @@ a {
     gap: 5px;
     padding: 10px;
     border-radius: 10px;
-    align-items: start;
+    align-items: flex-start;;
     background: #f6f5f5;
     flex-basis: calc(33% - 12px);
     max-width: calc(33% - 12px);
@@ -2286,8 +2286,8 @@ a {
   body .profilePage .profile-tabs #profile-page-tabContent .tab-pane .pane-box #coPassenger .travelDetails .packageDetails .travelDetailwrap .exploreBtn .bookingDetails .modal-dialog .modal-content .modal-body .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .addonPriceMap {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
   body .profilePage .profile-tabs #profile-page-tabContent .tab-pane .pane-box #coPassenger .travelDetails .packageDetails .travelDetailwrap .exploreBtn .bookingDetails .modal-dialog .modal-content .modal-body .leftPanel #accordionPanelsStayOpenExample .insuranceWrapper .insurance-container-wrapper .planListingCard .insuranceFulldetails .listingCardBenefitDetailsContainer .addonPriceMap .addonPriceDiff {
     font-size: 16px;
@@ -2529,7 +2529,7 @@ a {
     width: 40%;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;;
     height: 100%;
   }
   body .profilePage .profile-tabs #profile-page-tabContent .tab-pane .pane-box #coPassenger .travelDetails .packageDetails .travelDetailwrap .exploreBtn .bookingDetails .modal-dialog .modal-content .modal-body .tripWrapper .tripDiv .cancelWrapper .cancelWrap .cancelTimeline .timeLine .contentWrap .timeContent .headContent {
@@ -3895,7 +3895,7 @@ a {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 10px;
   }
   body .heroSection .searchBlock .searchCity .searchForm .ovscroll ul li .city img {
@@ -3980,7 +3980,7 @@ a {
   }
   body .heroSection .bottomStrip .banner {
     display: flex;
-    align-items: start;
+    align-items: flex-start;;
     justify-content: center;
   }
   body .heroSection .bottomStrip .banner .bannerBlock {
@@ -4162,7 +4162,7 @@ a {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 10px;
   }
   body .filtersection_banner .bannerPos .banner_content .searchCity .searchForm .ovscroll ul li .city img {
@@ -4669,7 +4669,7 @@ a {
     right: 2px;
     top: 0;
     cursor: pointer;
-    justify-content: flex-end;
+    justify-content: flex-end;;
     align-items: center;
     padding: 5px 0;
     font-size: 12px;
@@ -4710,7 +4710,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
   }
   body .filterSection .cardFilterBody .productCard .productDetails .productButton .calltoaction .offer {
     display: flex;
@@ -5772,7 +5772,7 @@ a {
   body .customAccordion .customAccord .accordionTitle {
     display: flex;
     gap: 20px;
-    align-items: start;
+    align-items: flex-start;;
   }
   body .customAccordion .customAccord .accordionTitle .day {
     padding: 5px 19px;
@@ -6795,7 +6795,7 @@ a {
   }
   body .main .mainContent .leftSide .batches .upcomingBatch .allBatches .batchWrap .batchBtn {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 10px;
   }
   body .main .mainContent .leftSide .batches .upcomingBatch .allBatches .batchWrap .batchBtn .scrollButton {
@@ -7052,13 +7052,13 @@ a {
     z-index: 1;
     display: flex;
     color: #e0e0e0;
-    align-items: end;
+    align-items: flex-end;
   }
   body .main .mainContent .leftSide .tourView .tabContent .itinerarytabContent .contentPart .itineraryContent .tripDetails .day {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;;
     gap: 0px;
     position: absolute;
     bottom: 20px;
@@ -7268,7 +7268,7 @@ a {
     gap: 5px;
     padding: 10px;
     border-radius: 10px;
-    align-items: start;
+    align-items: flex-start;;
     background: #f6f5f5;
     flex-basis: calc(33% - 12px);
     max-width: calc(33% - 12px);
@@ -7482,7 +7482,7 @@ a {
   }
   body .main .mainContent .rightSide .radio-input .btnSpace {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
   body .main .mainContent .rightSide .radio-input .btnSpace .moreBtn {
     background: none;
@@ -7574,7 +7574,7 @@ a {
   body .main .mainContent .rightSide .prizeList .prizeSection .productRating {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     justify-content: space-between;
   }
   body .main .mainContent .rightSide .prizeList .prizeSection .productRating .rating .currentRating {
@@ -7657,7 +7657,7 @@ a {
   body .main .mainContent .rightSide .prizeList_m .prizeSection .productRating {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     justify-content: space-between;
   }
   body .main .mainContent .rightSide .prizeList_m .prizeSection .productRating .offer {
@@ -8336,7 +8336,7 @@ a {
     right: 2px;
     top: 0;
     cursor: pointer;
-    justify-content: flex-end;
+    justify-content: flex-end;;
     align-items: center;
     padding: 5px 0;
     font-size: 12px;
@@ -8377,7 +8377,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
   }
   body .main .relatedProducts .allProducts .slick-slider .slick-list .slick-track .slick-slide .item .productCard .productDetails .productButton .calltoaction .offer {
     display: flex;
@@ -9545,7 +9545,7 @@ a {
   }
   body footer .secondFooter .termSection .policys {
     list-style: none;
-    justify-content: end;
+    justify-content: flex-end;
     display: flex;
     gap: 10px;
     font-size: 12px;
@@ -10471,7 +10471,7 @@ a {
   }
   body .main .mainContent .leftSide .batches .upcomingBatch .batchHead {
     width: 100%;
-    justify-content: start;
+    justify-content: flex-start;
   }
   body .main .mainContent .leftSide .batches .upcomingBatch .batchHead .heading {
     font-size: 16px;
@@ -10622,7 +10622,7 @@ a {
     margin: 0;
     height: inherit;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     max-width: 100%;
   }
   body .filterSection #sortByModal .modal-dialog .modal-content {
@@ -11276,7 +11276,7 @@ a {
   }
   body .accordion .accordion-item .accordion-collapse .accordion-body .meals .mealTiming .lunchDnnr {
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;;
     gap: 10px;
   }
   body .accordion .accordion-item .accordion-collapse .accordion-body .activity .activitySilder .slick-slider .slick-list .item {
@@ -11380,7 +11380,7 @@ a {
   }
   body .customAccordion .accordionDetails .details .meals .mealTiming .lunchDnnr {
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;;
     gap: 10px;
   }
   body .customAccordion .accordionDetails .details .activity .activitySilder .slick-slider .slick-list .item {
@@ -11777,7 +11777,7 @@ a {
     font-size: 20px;
   }
   body .profilePage .profile-tabs #profile-page-tabContent .tab-pane .pane-box #coPassenger .travelDetails .packageDetails .travelDetailwrap .exploreBtn .bookingDetails .modal-dialog .modal-content .modal-body .leftPanel .reviewTravel .travelDetails .packageDetails .dates {
-    align-items: start;
+    align-items: flex-start;;
   }
   body .profilePage .profile-tabs #profile-page-tabContent .tab-pane .pane-box #coPassenger .travelDetails .packageDetails .travelDetailwrap .exploreBtn .bookingDetails .modal-dialog .modal-content .modal-body .leftPanel #accordionPanelsStayOpenExample .accordion-item #panelsStayOpen-collapseTwo .accordion-body .tripSummary {
     padding: 1rem 0.5rem;
@@ -12002,8 +12002,8 @@ a {
     flex-direction: column;
   }
   body .profilePage .profile-tabs #profile-page-tabContent .tab-pane .pane-box #coPassenger .travelDetails .packageDetails .travelDetailwrap .btnDatewrap {
-    justify-content: start;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: flex-start;;
     flex-direction: column-reverse;
   }
 }
@@ -12582,7 +12582,7 @@ body .top-sticky .activityTop .swiper .swiper-wrapper .swiper-slide a {
 }
 body .top-sticky .activityTop .swiper .swiper-wrapper .swiper-slide a .locationCard {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
   gap: 5px;
@@ -13515,7 +13515,7 @@ body .testimonial-section .testimonial .slick-list .slick-track .slick-slide.sli
   transform: scale(1.1);
 }
 body .testimonial-section .testimonial .slick-list .slick-track .slick-slide:nth-child(odd) .item .testimonialPerson {
-  justify-content: end;
+  justify-content: flex-end;
 }
 body .testimonial-section .button-container {
   margin-top: 30px;

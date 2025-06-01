@@ -16,7 +16,7 @@ const SalesPartner = () => {
         </div>
         <div className="document">
           <h6>Partner with Us to Inspire Travel and Earn Rewards</h6>
-          <p>Join hands with FullOnTravel and become a part of our mission to create unforgettable travel experiences. As a sales partner, you'll have the opportunity to represent our exciting travel packages and earn attractive commissions while helping travelers explore the world.</p>
+          <p>Join hands with FullOnTravel and become a part of our mission to create unforgettable travel experiences. As a sales partner, you&apos;ll have the opportunity to represent our exciting travel packages and earn attractive commissions while helping travelers explore the world.</p>
           <h5>Why Partner with Us?</h5>
           <ol>
             <li><strong>Comprehensive Product Portfolio:</strong> Access a wide range of curated travel experiences, from adventure tours and cultural journeys to solo travel and workation packages.</li>

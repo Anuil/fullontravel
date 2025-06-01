@@ -14,6 +14,7 @@ const BASE_SLUG = "-tour-packages";
 
 import "../../assets/Style/index.css";
 import Link from "next/link";
+import Image from 'next/image'
 
 const swiperSettings = {
   slidesPerView: 11,
@@ -106,7 +107,7 @@ export default function LocationSlider({
                                 <div className="trendTag">Trending</div>
                               )}
                               <div className="imgWrapper">
-                                <img
+                                <Image
                                   src={`${
                                     BASE_IMAGE_SRC + destination?.iconImageUrl
                                   }`}
@@ -116,6 +117,8 @@ export default function LocationSlider({
                                       ? "lazy"
                                       : "eager"
                                   }
+                                  width={800} 
+                                height={600}
                                 />
                               </div>
                               <div className="locationnDetails">

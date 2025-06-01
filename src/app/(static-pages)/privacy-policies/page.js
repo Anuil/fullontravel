@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
             that can be linked to a specific individual, such as name, address,
             telephone number, e-mail address, and credit card number. We
             encourage you to review our Privacy Policy, and become familiar with
-            it, but you should know that we do not sell or rent our customers'
+            it, but you should know that we do not sell or rent our customers&rsquo;
             personal information to third parties. Please note that we review
             our Privacy Policy from time to time, and we may make periodic
             changes to the policy in connection with that review. Therefore, you
@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
             travelling (if not you). We may also ask you for other personal
             information, such as your frequent flier numbers. We require this
             information to process, fulfill and confirm your reservations and
-            transactions and keep you informed of each transaction's status. If
+            transactions and keep you informed of each transaction&rsquo;s status. If
             you are making a reservation for one or more travellers other than
             yourself, you must confirm and represent that each of these other
             travellers have agreed, in advance, that you may disclose their
@@ -131,8 +131,8 @@ export default function PrivacyPolicy() {
           </p>
           <h4>Automatic Logging of Session Data</h4>
           <p>
-            We automatically log generic information about your computer's
-            connection to the Internet, which we call "session data", that is
+            We automatically log generic information about your computer&rsquo;s
+            connection to the Internet, which we call &quot;session data&quot;, that is
             anonymous and not linked to any personal information. Session data
             consists of things such as IP address, operating system and type of
             browser software being used and the activities conducted by the user
@@ -144,22 +144,22 @@ export default function PrivacyPolicy() {
             also helps us diagnose problems with our servers and lets us better
             administer our systems. Although such information does not identify
             any visitor personally, it is possible to determine from an IP
-            address a visitor's Internet Service Provider (ISP), and the
+            address a visitor&rsquo;s Internet Service Provider (ISP), and the
             approximate geographic location of his or her point of connectivity.
           </p>
           <h4>Cookies</h4>
           <p>
-            "Cookies" are small pieces of information that are stored by your
-            browser on your computer's hard drive. There are many myths
+            &quot;Cookies&quot; are small pieces of information that are stored by your
+            browser on your computer&rsquo;s hard drive. There are many myths
             circulating about cookies, but you should know that cookies are only
             read by the server that placed them, and are unable to do such
             things as run programs on your computer, plant viruses or harvest
             your personal information. The use of cookies is very common on the
-            Internet and Full On Travel Private Limited's use of cookies is
+            Internet and Full On Travel Private Limited&rsquo;s use of cookies is
             similar to that of such sites as NDTV,Orbitz, as well as Yahoo!,
             CNN.com and other reputable online companies. First and foremost,
             you can rest assured that no personally identifiable information
-            ("PII") about you (e.g., name, address, etc.) is gathered or stored
+            (PII) about you (e.g., name, address, etc.) is gathered or stored
             in the cookies placed by the fullontravel.com site and, as a result,
             none can be passed on to any third parties. Cookies allow us to
             serve you better and more efficiently, and to personalize your
@@ -169,7 +169,7 @@ export default function PrivacyPolicy() {
             cookies allow you to log in without having to type your log - in
             name each time (only your password is needed. We may also use such
             cookies to display an advertisement to you while you are on
-            fullontravel.com site or to send you a "Best Day to Buy" email (or
+            fullontravel.com site or to send you a &quot;Best Day to Buy&quot; email (or
             similar emails - assuming you have not opted out of receiving such
             emails) focusing on destinations in which we think you might be
             interested. None of this information is passed to any third party,
@@ -250,9 +250,9 @@ export default function PrivacyPolicy() {
             Travel Private Limited services, and other important offerings. We
             hope you will find these updates interesting and informative. Of
             course, if you do not wish to receive any such communication, please
-            click on the "unsubscribe" link or follow the instructions in each
-            e-mail message or send us an email. You can also log in to 'Your
-            Account' on fullontravel.com and make the desired changes under the
+            click on the &quot;unsubscribe&quot; link or follow the instructions in each
+            e-mail message or send us an email. You can also log in to &rsquo;Your
+            Account&rsquo; on fullontravel.com and make the desired changes under the
             Preferences section. Full On Travel Private Limited reserves the
             right to limit membership to those who will accept e-mails. Members
             will be notified via e-mail prior to any actions taken.
@@ -281,7 +281,7 @@ export default function PrivacyPolicy() {
             maintaining the secrecy of your passwords, and your fullontravel.com
             site membership account information. Please be very careful,
             responsible, and alert with this information, especially whenever
-            you're online.
+            you&rsquo;re online.
           </p>
           <p>
             In addition to the circumstances described above, Full On Travel

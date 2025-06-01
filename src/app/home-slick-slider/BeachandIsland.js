@@ -10,6 +10,7 @@ const BASE_SLUG = "-tour-packages";
 
 import "../../assets/Style/index.css";
 import Link from "next/link";
+import Image from 'next/image'
 
 const ModeSettings = {
   dots: false,
@@ -80,10 +81,12 @@ export default function BeachandIslandSlider({
                   state={{ destinationId: destination?.id }}
                 >
                   <div className="destinationCard">
-                    <img
+                    <Image
                       loading="lazy"
                       src={`${BASE_IMAGE_SRC + destination?.imageUrl}`}
                       alt=""
+                      width={800} 
+                      height={600}
                       className="destinationImg"
                     />
                     <div className="destinationDetails">

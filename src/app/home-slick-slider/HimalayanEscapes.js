@@ -10,6 +10,7 @@ const BASE_SLUG = "-tour-packages";
 
 import "../../assets/Style/index.css";
 import Link from "next/link";
+import Image from 'next/image'
 
 const ModeSettings = {
   dots: false,
@@ -91,9 +92,11 @@ export default function HimalayanEscapesSlider({ destination, isDestinationLoadi
                             href={destinationUrl}
                           >
                             <div className="vacationCard">
-                              <img
+                              <Image
                                 src={normalizeImageUrl(destination?.imageUrl)}
                                 alt=""
+                                width={800} 
+                                height={600}
                                 className="cardImg"
                               />
                               <div className="imgOverlay"></div>

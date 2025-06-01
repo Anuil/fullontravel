@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const BASE_IMAGE_SRC = "https://cdn.fullontravel.com/";
 import "../../assets/Style/index.css";
+import Image from 'next/image'
 
 
 const ModeSettings = {
@@ -37,15 +38,19 @@ const ModeSettings = {
 };
 
 export default function TestimonialsSlider({ testimonials }) {
+  // console.log("------------",testimonials)
   return (
     <Slider {...ModeSettings} className="testimonial">
       {testimonials?.map((item, idx) => (
         <div className="item" key={idx}>
           <div className="testimonialPerson">
             <div className="personImage">
-              <img
+              <Image
                 src={`${BASE_IMAGE_SRC + item?.profileImage}`}
-                alt=""
+                // src="https://cdn.fullontravel.com/dev/2.png-377332.png"
+                alt="Profile Image"
+                width={800} 
+                height={600}
                 loading="lazy"
               />
             </div>

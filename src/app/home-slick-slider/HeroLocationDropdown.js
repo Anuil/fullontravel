@@ -10,6 +10,7 @@ const BASE_SLUG = "-tour-packages";
 
 import "../../assets/Style/index.css";
 import Link from "next/link";
+import Image from 'next/image'
 
 export default function HeroLocationDropdown({
   destination,
@@ -44,11 +45,16 @@ export default function HeroLocationDropdown({
           borderBottom: "1px solid hsl(0, 0%, 80%)",
         }}
       >
-        <img
-          src={data.icon}
-          alt={data.label}
-          style={{ width: 16, height: 20, borderRadius: "50%", marginRight: 8 }}
-        />
+        {data.icon && (
+          <Image
+            src={data.icon}
+            alt={data.label}
+            width={16}
+            height={20}
+            style={{ borderRadius: "50%", marginRight: 8 }}
+          />
+        )}
+
         {data.label}
       </div>
     );

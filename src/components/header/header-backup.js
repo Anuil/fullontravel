@@ -111,7 +111,7 @@ console.log("menuItems",menuItems)
         `}</style>
         <div className="customContainer">
           <div className="mainHeader navbar navbar-expand-lg">
-            <Link href="/"><img src="https://cdn.fullontravel.com/dev/logo.webp-410949.webp" alt="" className="siteLogo" loading="eager" /></Link>
+            <Link href="/"><Image src="https://cdn.fullontravel.com/dev/logo.webp-410949.webp" alt="" className="siteLogo" loading="eager" /></Link>
             <button
               type="button"
               className="searchBox d-none"

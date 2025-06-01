@@ -91,7 +91,7 @@ const LocatioBar = ({ onReady }) => {
                                                                 <div className="trendTag">Trending</div>
                                                             )}
                                                             <div className="imgWrapper">
-                                                                <img
+                                                                <Image
                                                                     src={`${BASE_IMAGE_SRC + destination?.iconImageUrl}`}
                                                                     alt={destination?.region}
                                                                     loading={index >= (isMobile ? 5 : 11) ? "lazy" : "eager"}

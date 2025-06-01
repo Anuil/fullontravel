@@ -23,7 +23,7 @@ export default function AboutUs() {
           <h4>4. About Bikat Adventures:</h4>
           <p>Founded in 2011 by a group of passionate explorers, Bikat Adventures is dedicated to creating immersive outdoor experiences that go beyond just adventure.</p>
 
-          <p>Bikat Adventures' philosophy is built around three core values: Adventure, Endurance, and Learning. Whether it’s trekking through the Himalayas, cycling across rugged terrains, or mountaineering in extreme conditions, Bikat Adventures ensures that every journey enhances your skills, builds resilience, and deepens your connection with nature.</p>
+          <p>Bikat Adventures&apos; philosophy is built around three core values: Adventure, Endurance, and Learning. Whether it’s trekking through the Himalayas, cycling across rugged terrains, or mountaineering in extreme conditions, Bikat Adventures ensures that every journey enhances your skills, builds resilience, and deepens your connection with nature.</p>
        <p>Website: <a href="https://www.bikatadventures.com/" target="blank">Click here</a></p>
        <p>Instagram: <a href="https://www.instagram.com/bikatadventures/?hl=en" target="blank">Click here</a></p>
        <p>Google Reviews, 4.7* (3500+): <a href="https://g.co/kgs/3fRKjxZ" target="blank">Click here</a></p>

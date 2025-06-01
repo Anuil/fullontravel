@@ -20,7 +20,7 @@ import Profile from "../Profile/Profile";
 import SkeletonWrapper from "../../Components/SkeletonWrapper";
 import { getVacationType } from "../../lib/api";
 import dynamic from "next/dynamic";
-import LoginControl from "./LoginControl";
+// import LoginControl from "./LoginControl";
 // import LoginModal from "../LoginModal/LoginModal";
 
 
@@ -107,7 +107,8 @@ export default async function Header() {
         `}</style> */}
         <div className="customContainer">
           <div className="mainHeader navbar navbar-expand-lg">
-            <Link href="/"><img src="https://cdn.fullontravel.com/dev/logo.webp-410949.webp" alt="" className="siteLogo" loading="eager" /></Link>
+            <Link href="/"><Image src="https://cdn.fullontravel.com/dev/logo.webp-410949.webp" alt="" className="siteLogo" width={150} 
+                                height={60}  loading="eager" /></Link>
             <button
               type="button"
               className="searchBox d-none"
@@ -130,7 +131,7 @@ export default async function Header() {
             {/* boot nav start*/}
             <div className="logBtnWrap">
               <div className="loginDiv d-lg-none d-block">
-                        <LoginControl  />
+                        {/* <LoginControl  /> */}
                         {/* <LoginControl isUser={isUser}></LoginControl> */}
 
                 {/* {
@@ -233,7 +234,7 @@ export default async function Header() {
             </div>
             {/* boot nav end */}
             <div className="loginDiv d-none d-lg-block">
-                        <LoginControl  />
+                        {/* <LoginControl  /> */}
 
               {/* {isLoading ? (
                 <SkeletonWrapper />
