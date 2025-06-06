@@ -5,7 +5,7 @@ import lowest from "../assets/images/svg/lowest.svg";
 import support from "../assets/images/svg/support.svg";
 import AfterFooter from "../components/footer/AfterFooter";
 
-import ReviewSection from "../Components/Reviews/ReviewSection";
+import ReviewSection from "../components/Reviews/ReviewSection"
 import googleStar from "../assets/images/svg/google-star.svg";
 import trustWhite from "../assets/images/svg/trust-white.svg?url";
 import mapWhite from "../assets/images/svg/map-white.svg";

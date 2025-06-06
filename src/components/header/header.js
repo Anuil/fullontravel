@@ -17,7 +17,6 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 // import { useGetVacationTypesQuery } from "../../features/tour/TourApiSlice";
 // import useAuth from "../features/hooks/useAuth";
 import Profile from "../Profile/Profile";
-import SkeletonWrapper from "../../Components/SkeletonWrapper";
 import { getVacationType } from "../../lib/api";
 import dynamic from "next/dynamic";
 // import LoginControl from "./LoginControl";
@@ -191,6 +190,10 @@ export default async function Header() {
           dropdownItems={dropdownItems}
           isActive={isActive}
         /> */}
+         {/* <li><Link href="/holidays/goa">Goa</Link></li>
+        <li><Link href="/holidays/manali">Manali</Link></li>
+        <li><Link href="/holidays/kerala">Kerala</Link></li> */}
+        
                 {firstFive.map((item, index) => (
                   <li className="nav-item" key={index}>
                     <a className={`nav-link`}  href={item.to}>

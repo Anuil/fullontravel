@@ -47,3 +47,62 @@ export async function getVacationType() {
   }
   return res.json();
 }
+
+
+/**
+ * Fetch All Tours
+ * @param {number} page
+ * @param {number} pageSize
+ */
+export async function getAllTours(
+  destinationId,
+  vacationTypeId,
+  groupTour,
+  page = 1,
+  pageSize = 20
+) {
+  console.log("selectedDestination", destinationId?.id, groupTour, vacationTypeId);
+
+  const queryParams = new URLSearchParams({
+    page: page.toString(),
+    pageSize: pageSize.toString(),
+  });
+
+  if (destinationId?.id) {
+    queryParams.append("destinationId", destinationId.id);
+  }
+  if (groupTour) {
+    queryParams.append("groupTour", groupTour);
+  }
+  if (vacationTypeId) {
+    queryParams.append("vacationTypeId", vacationTypeId);
+  }
+
+  const url = `${BASE_URL}tour/?${queryParams.toString()}`;
+console.log("urlurl",url)
+  const res = await fetch(url, {
+    cache: "no-store", // SSR-safe
+  });
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch tours");
+  }
+
+  return res.json();
+}
+
+
+/**
+ * Fetch All Tours
+ */
+export async function getDestination(destinationName) {
+  const res = await fetch(`${BASE_URL}tour/destination/${destinationName}`, {
+    cache: "no-store", // For SSR
+  });
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch destinationName");
+  }
+
+  return res.json();
+}

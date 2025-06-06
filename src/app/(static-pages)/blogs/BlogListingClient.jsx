@@ -18,7 +18,8 @@ export default function BlogListingClient({ blogs, categories }) {
     <div className="listingBlog">
       <div className="customContainer">
         <div className="blogBanner">
-          <Image src="https://cdn.fullontravel.com/dev/blog.webp-714245.webp" alt="Blog Banner" />
+          {/* <Image src="https://cdn.fullontravel.com/dev/blog.webp-714245.webp" alt="Blog Banner" width={1050} 
+                      height={450} /> */}
         </div>
 
         {/* Category Tabs */}
@@ -50,13 +51,13 @@ export default function BlogListingClient({ blogs, categories }) {
               <Link href={`/blog/${blog.slug}`}>
                 <div className="blogscard">
                   <div className="blogImage">
-                    <Image
+                    {/* <Image
                       src={BASE_IMAGE_SRC + blog.imageUrl}
                       alt={blog.title}
                       width={600}
                       height={400}
                       style={{ width: "100%", height: "auto" }}
-                    />
+                    /> */}
                   </div>
                   <div className="blogContent">
                     <div className="blogDetail">

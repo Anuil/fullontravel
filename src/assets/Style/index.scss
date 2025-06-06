@@ -5025,6 +5025,13 @@ a {
                 display: flex;
                 gap: 8px;
                 align-items: center;
+                .stars{
+                    background-color: #004f00;
+
+                  svg{
+                    height: 1em;
+                  }
+                }
                 .reviewCount {
                   font-size: 12px;
                   color: #595959;
@@ -9119,6 +9126,13 @@ a {
                             display: flex;
                             gap: 8px;
                             align-items: center;
+                            
+                            .stars{
+                              background-color: #004f00;
+                              svg{
+                                height: 1em;
+                              }
+                            }
                             .reviewCount {
                               font-size: 12px;
                               color: #595959;

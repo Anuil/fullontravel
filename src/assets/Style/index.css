@@ -4572,6 +4572,9 @@ a {
     color: #595959;
     font-weight: 700;
   }
+  body .filterSection .cardFilterBody .productCard .productDetails .reviewWish .product_reviews .stars svg{
+    height: 1em;
+  }
   body .filterSection .cardFilterBody .productCard .productDetails .reviewWish .wishlist button {
     font-size: 14px;
     font-weight: 600;

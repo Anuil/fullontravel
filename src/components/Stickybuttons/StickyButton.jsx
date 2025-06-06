@@ -3,9 +3,9 @@ import { useState } from "react";
 import support from "../../assets/images/svg/support.svg";
 import whatsapp from "../../assets/images/svg/whatsapp.svg";
 import call from "../../assets/images/svg/call.svg";
-import EnquiryModal from "../../Components/Enquirymodal/EnquiryModal";
 import Link from 'next/link';
 import Image from 'next/image'
+import EnquiryModal from "../Enquirymodal/EnquiryModal";
 
 
 function StickyButton() {

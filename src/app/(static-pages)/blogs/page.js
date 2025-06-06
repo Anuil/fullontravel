@@ -89,13 +89,14 @@ const ListingBlog = () => {
     const BASE_IMAGE_SRC = "https://cdn.fullontravel.com/";
 
     return (
-        <div className="listingBlog">
+        <div className="listingBlog anup">
             <div className="customContainer">
                 <div className="row">
                     <div className="col-12">
                         <div className="blogBanner">
                             
-                            <Image src="https://cdn.fullontravel.com/dev/blog.webp-714245.webp" alt="" />
+                            <Image src="https://cdn.fullontravel.com/dev/blog.webp-714245.webp" width={1050} 
+                      height={450} alt="" />
                         </div>
 
                         {/* Bootstrap Tabs */}
@@ -133,7 +134,7 @@ const ListingBlog = () => {
                                             <Link href={`/blog/${blog?.slug}`}>
                                                 <div className="blogscard">
                                                     <div className="blogImage">
-                                                        <Image src={BASE_IMAGE_SRC + blog?.imageUrl} alt={blog?.title} />
+                                                        <Image src={BASE_IMAGE_SRC + blog?.imageUrl} alt={blog?.title} width={520} height={300} />
                                                     </div>
                                                     <div className="blogContent">
                                                         <div className="blogDetail">
