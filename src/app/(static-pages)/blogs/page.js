@@ -96,7 +96,7 @@ const ListingBlog = () => {
                         <div className="blogBanner">
                             
                             <Image src="https://cdn.fullontravel.com/dev/blog.webp-714245.webp" width={1050} 
-                      height={450} alt="" />
+                      height={450} alt="" priority  />
                         </div>
 
                         {/* Bootstrap Tabs */}
@@ -131,10 +131,10 @@ const ListingBlog = () => {
                                 BlogsList?.data?.length > 0 ? (
                                     BlogsList?.data?.map((blog) => (
                                         <div className="col-md-6 mb-4 blogItem" key={blog?.slug}>
-                                            <Link href={`/blog/${blog?.slug}`}>
+                                            <Link href={`/blogs/${blog?.slug}`}>
                                                 <div className="blogscard">
                                                     <div className="blogImage">
-                                                        <Image src={BASE_IMAGE_SRC + blog?.imageUrl} alt={blog?.title} width={520} height={300} />
+                                                        <Image src={BASE_IMAGE_SRC + blog?.imageUrl} alt={blog?.title} width={520} height={300} priority />
                                                     </div>
                                                     <div className="blogContent">
                                                         <div className="blogDetail">
